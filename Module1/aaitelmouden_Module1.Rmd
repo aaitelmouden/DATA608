@@ -1,0 +1,190 @@
+---
+title: "DATA621 | MODULE 1"
+author: "Abdellah AitElmouden"
+date: "2/12/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+**Principles of Data Visualization and Introduction to ggplot2**
+
+I have provided you with data about the 5,000 fastest growing companies in the US, as compiled by Inc. magazine. lets read this in:
+
+```{r message=FALSE, warning=FALSE}
+
+library(tidyverse)
+library(ggplot2)
+library(scales)
+
+inc <- read.csv("https://raw.githubusercontent.com/charleyferrari/CUNY_DATA_608/master/module1/Data/inc5000_data.csv", header= TRUE, stringsAsFactors = TRUE)
+
+```
+
+And lets preview this data:
+
+```{r}
+
+head(inc)
+
+```
+
+
+```{r}
+
+summary(inc)
+
+```
+
+**Think a bit on what these summaries mean. Use the space below to add some more relevant non-visual exploratory information you think helps you understand this data:**
+
+The summary function provides exactly what is needed in terms of summary statistics. The function showed only the variable type for the categorical variables, so I added *StringAsFactors =TRUE* when building the data frames
+
+The function provides an overall glimpse via descriptive statistics for the columns in the dataset. As we can see from the summary the dataset is dominated by IT services, followed by Business Products and Services and Advertising and Marketing companies. 
+
+```{r}
+
+# We can also use str overview of inc data frame
+str(inc)
+
+```
+
+Another important is to check the missing values since they might affect or skew our visualizations.
+
+```{r}
+colSums(is.na(inc))
+```
+
+Let's take a look at the top five industries with the highest growth rates.
+
+```{r message=FALSE, warning=FALSE}
+top5 <-inc%>%
+  group_by(Industry)%>%
+  summarize(Avg_growth=mean(Growth_Rate))%>%
+  top_n(5,Avg_growth)%>%
+  arrange(desc(Avg_growth))
+
+top5
+```
+
+Let's get the top 5 cities in America with the 1000 fastest growing companies
+
+```{r}
+top_5_cities <- inc %>% arrange(desc(Growth_Rate)) %>% head(1000) %>% count(City, sort = TRUE) %>% head(5)
+top_5_cities
+```
+
+We can Also check how many state codes are there in the data set.
+
+```{r}
+unique(unlist(inc$State))
+```
+
+We see 52 codes, the 50 states plus DC and Puerto Rico. Next we can do same for
+Industry column to see how many they are there and if they're duplicate.
+
+```{r}
+unique(unlist(inc$Industry))
+```
+
+We see 25 different industry categories and none of them overlap.
+
+## Question 1
+
+Create a graph that shows the distribution of companies in the dataset by State (ie how many are in each state). There are a lot of States, so consider which axis you should use. This visualization is ultimately going to be consumed on a 'portrait' oriented screen (ie taller than wide), which should further guide your layout choices.
+
+```{r}
+# Prepare the data for plotting
+
+data <- inc %>% 
+    group_by(State) %>% 
+    tally() %>%
+  rename(count = n) %>%
+  arrange(desc(count))
+
+#plot our data
+g <- ggplot(data, aes(x = reorder(State, count), y = count)) 
+g <- g + geom_bar(stat = "identity", fill = 'dodgerblue1') + coord_flip() 
+g <- g + ggtitle("Distribution of 5,000 Fastest Growing Companies")
+g <- g + labs(subtitle = "by state", x = "state", y = "company count")
+g <- g + theme(plot.title = element_text(hjust = 0.5), plot.subtitle = element_text(hjust = 0.5))
+g
+```
+California, Texas, and New York appear to have the 3 fastest growing companies in the US.
+
+## Quesiton 2
+
+Lets dig in on the state with the 3rd most companies in the data set. Imagine you work for the state and are interested in how many people are employed by companies in different industries. Create a plot that shows the average and/or median employment by industry for companies in this state (only use cases with full data, use R's `complete.cases()` function.) In addition to this, your graph should show how variable the ranges are, and you should deal with outliers.
+
+```{r}
+# First let's find state with third most companies (our data is already ordered in descendant, therefore the 3rd row)
+state3rd <- data[3,"State"]
+state3rd
+
+```
+
+
+```{r message=FALSE, warning=FALSE}
+
+# filter 3rd ranked state only   
+data2 <- inc[complete.cases(inc),] %>%
+  inner_join(state3rd, by = "State")
+
+# Calculate the mean employees by industry
+means <- aggregate(Employees ~ Industry, data2, mean)
+
+# Calculate the maximum average employee no.
+means_max <- max(means$Employees)
+
+# prepare plot data: box plots (with outliers removed)
+g <- ggplot(data2, aes(x = reorder(Industry,Employees,mean), y = Employees))
+g <- g + geom_boxplot(outlier.shape = NA, show.legend=F) + coord_flip()
+g <- g + labs(x = "industry", y = "employees", title="Mean Employee Size by Industry")
+g <- g + labs(subtitle = "with boxplots")
+g <- g + geom_point(data = means, aes(x=Industry, y=Employees), color='darkred', size = 2)
+g <- g + theme(plot.title = element_text(hjust = 0.5), plot.subtitle = element_text(hjust = 0.5))
+
+# plot data, linear scale
+g <- g +  scale_y_continuous(limits = c(0,means_max), breaks = seq(0, means_max, 200))
+g
+```
+
+We can see from the graph that the mean data are highly skewed, that is there is an outlier employee count in the Business Products & Services industry that is almost 2 times greater than the second ranked industry, Consumer Products & Services. i.e. more than 100%. We can visualize the data on a logarithmic scale to scale everything down.
+
+```{r message=FALSE, warning=FALSE}
+# plot data, log scale
+g <- g + scale_y_log10(limits = c(1, means_max))
+g <- g + labs(caption = "(logarithmic scale spacing)")
+g <- g + theme(plot.caption = element_text(size = 8))
+g
+```
+
+
+
+## Question 3
+
+Now imagine you work for an investor and want to see which industries generate the most revenue per employee. Create a chart that makes this information clear. Once again, the distribution per industry should be shown.
+
+```{r message=FALSE, warning=FALSE}
+
+# Filter by Most Revenue per employee by industry
+revenue.industry <- inc %>%
+  filter(State== "NY") %>% 
+  group_by(Industry) %>% 
+  summarise(avg_revenue = mean(Revenue))
+
+
+# NOw since we have the filtered data, let's put it into graph to see visualization
+
+ggplot(revenue.industry, aes(x=reorder(Industry, avg_revenue), y=avg_revenue))+geom_bar(stat="identity", fill="#03DAC5")+coord_flip()+labs(title="Average Revenue per Employee by industry in NY", x="Industry", y="Average Revenue per Employee")
+
+```
+
+
+### Conclusion
+
+According to visualizations from Question 1, California has the most number of companies in United States. In Question 2 we dug in on the state with the 3rd most companies in the data set which is New York, and we used a box plot to show the average and/or median employment by industry for companies in NY. Box plots help visualize the distribution of quantitative values in a field. They are also valuable for comparisons across different categorical variables or identifying outliers, if either of those exist in a dataset. Finally to check the average revenue per employee by different industry in NY, we again created bar chart and found that consumer products & services has the highest average revenue per employee while IT services and business products & services are the next highest. Eduction and government services has the least average revenue per employee in NY.
+
