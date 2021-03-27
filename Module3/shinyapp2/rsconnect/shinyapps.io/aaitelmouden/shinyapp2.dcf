@@ -1,0 +1,12 @@
+name: shinyapp2
+title: shinyapp2
+username:
+account: aaitelmouden
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 3793298
+bundleId: 4347920
+url: https://aaitelmouden.shinyapps.io/shinyapp2/
+when: 1615817020.14915
+asMultiple: FALSE
+asStatic: FALSE
