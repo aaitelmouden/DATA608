@@ -50,7 +50,7 @@ ui <- dashboardPage(skin = "purple",
 This data has 7 different variables: year, sex, ethnicity, cause of death, count of deaths, death rate, and Age adjusted death rate"))),
                                     fluidRow(h1('Data Source'),
                                     br(),
-                                    fluidRow(column(12,p("Cause of death is derived from the NYC death certificate which is issued for every death that occurs in New York City. The Data is provided by Department of Health and Mental Hygiene (DOHMH):"), a("NYC-Open-DATA", href="https://data.cityofnewyork.us/Health/New-York-City-Leading-Causes-of-Death/jb7j-dtam)"))
+                                    fluidRow(column(12,p("Cause of death is derived from the NYC death certificate which is issued for every death that occurs in New York City. The Data is provided by Department of Health and Mental Hygiene (DOHMH):"), a("NYC-Open-DATA", href="https://data.cityofnewyork.us/Health/New-York-City-Leading-Causes-of-Death/jb7j-dtam"))
                                     ))),
                             tabItem(tabName= "Table", 
                                     fluidRow(

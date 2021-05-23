@@ -63,8 +63,8 @@ server = function(input, output) {
     
     output$raceplot = renderPlot(({
         
-        nyc_mortality %>% group_by(year,sex) %>% summarise(Total = sum(as.numeric(deaths)), .groups = 'keep') %>%
-            ggplot(aes(year,Total)) +  geom_bar(aes(fill = sex), position ="dodge",stat = "identity") + ylab('Total Death')
+        nyc_mortality %>% group_by(year,race_ethnicity) %>% summarise(Total = sum(as.numeric(deaths)), .groups = 'keep') %>%
+            ggplot(aes(year,Total)) +  geom_bar(aes(fill = race_ethnicity), position ="dodge",stat = "identity") + ylab('Total Death')
     }))
     
     

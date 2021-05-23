@@ -70,4 +70,4 @@ write.csv(death, "./data/nyc_death_cleaned.csv")
 nyc_mortality <- read.csv("./data/nyc_death_cleaned.csv")
 ########################################################
 
-nyc_aadr <- nyc_mortality %>% group_by(leading_cause, race_ethnicity, year) %>% summarize(Total_Age_adjusted = sum(age_adjusted_death_rate))
+nyc_aadr <- nyc_mortality %>% group_by(leading_cause, race_ethnicity, year) %>% dplyr::summarize(Total_Age_adjusted = sum(age_adjusted_death_rate))

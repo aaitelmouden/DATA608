@@ -5,9 +5,9 @@ account: aaitelmouden
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 4168985
-bundleId: 4628308
+bundleId: 4630695
 url: https://aaitelmouden.shinyapps.io/nyc_cause_of_death/
-when: 1621705474.59637
-lastSyncTime: 1621705474.5964
+when: 1621795067.40289
+lastSyncTime: 1621795067.40291
 asMultiple: FALSE
 asStatic: FALSE
