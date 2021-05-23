@@ -1,0 +1,510 @@
+---
+title: "DATA608 Project | New York City Leading Causes of Death"
+author: "Abdellah, Ait Elmouden"
+output: 
+  pdf_document:
+    extra_dependencies: ["geometry", "multicol", "multirow"]
+    latex_engine: xelatex
+---
+
+
+```{r echo=FALSE}
+# load data
+
+```
+
+
+### Part 1 - Introduction
+
+What are the top causes of death in New York City? How long can we expect to live? Are we gaining or losing ground against our most life-threatening public health crises? Death statistics can provide insights into many facets of modern life. Mortality data answers critical questions like these, helping us understand how many New Yorkers are dying and – importantly – why. The data I'll work with explores the leading causes of death in New York City. I have pulled the data from the NYC Open Data site to explore this area of inquiry.
+
+This R Markdown file will help to explore, analyze the data before we create the shiny app. 
+
+This data has 7 different variables: year, sex, ethnicity, cause of death, count of deaths, death rate, and Age adjusted death rate. 
+
+**Loading Libraries**
+
+```{r}
+library(purrr)
+library(ggplot2)
+library(ggthemes)
+library(tidyverse)
+library(dplyr, warn.conflicts = FALSE)
+```
+
+
+### Part 2 - Data
+
+Cause of death is derived from the NYC death certificate which is issued for every death that occurs in New York City. The Data is provided by Department of Health and Mental Hygiene (DOHMH), and published in [NYC-Open-DATA](https://data.cityofnewyork.us/Health/New-York-City-Leading-Causes-of-Death/jb7j-dtam)
+
+
+```{r}
+####################################################
+# Load the Data and Clean it
+###################################################
+
+death = read.csv("./data/nyc_deaths.csv") %>% 
+    janitor::clean_names() %>% 
+    filter(
+        race_ethnicity != "Not Stated/Unknown",
+        race_ethnicity != "Other Race/ Ethnicity",
+        leading_cause != "All Other Causes"
+    ) %>% 
+    mutate(
+        deaths = as.numeric(deaths),
+        death_rate = as.numeric(death_rate),
+        age_adjusted_death_rate = as.numeric(age_adjusted_death_rate))
+
+####################################################
+# Rename cause of death and Sex labels
+####################################################
+
+death = 
+    death %>% 
+    mutate(
+        sex = str_replace(sex, "Female", "F"),
+        sex = str_replace(sex, "Male", "M"),
+        leading_cause = str_replace_all(leading_cause, "[//(//)]", ""),
+        leading_cause = str_replace(leading_cause, "Influenza Flu and Pneumonia J09-J18", "Influenza & Pneumonia"),
+        leading_cause = str_replace(leading_cause, "Accidents Except Drug Posioning V01-X39, X43, X45-X59, Y85-Y86", "Accidents"),
+        leading_cause = str_replace(leading_cause, "Cerebrovascular Disease Stroke: I60-I69", "Cerebrovascular Disease"),
+        leading_cause = str_replace(leading_cause, "Assault Homicide: Y87.1, X85-Y09", "Assault"),
+        leading_cause = str_replace(leading_cause, "Essential Hypertension and Renal Diseases (I10, I12)", "Hypertension & Renal Dis."),
+        leading_cause = str_replace(leading_cause, "Human Immunodeficiency Virus Disease HIV: B20-B24", "HIV"),
+        leading_cause = str_replace(leading_cause, "Diseases of Heart I00-I09, I11, I13, I20-I51", "Diseases of Heart"),
+        leading_cause = str_replace(leading_cause, "Alzheimer's Disease G30", "Alzheimer's Disease"),
+        leading_cause = str_replace(leading_cause, "Chronic Liver Disease and Cirrhosis K70, K73", "Chronic Liver Disease/Cirrhosis"),
+        leading_cause = str_replace(leading_cause, "Malignant Neoplasms Cancer: C00-C97", "Malignant Neoplasms"),
+        leading_cause = str_replace(leading_cause, "Diabetes Mellitus E10-E14", "Diabetes Mellitus"),
+        leading_cause = str_replace(leading_cause, "Mental and Behavioral Disorders due to Accidental Poisoning and Other Psychoactive Substance Use F11-F16, F18-F19, X40-X42, X44", "Accidental Poisoning/Substance Use"),
+        leading_cause = str_replace(leading_cause, "Septicemia A40-A41", "Septicemia"),
+        leading_cause = str_replace(leading_cause, "Chronic Lower Respiratory Diseases J40-J47", "Chronic Lower Respiratory Dis."),
+        leading_cause = str_replace(leading_cause, "Nephritis, Nephrotic Syndrome and Nephrisis N00-N07, N17-N19, N25-N27", "Nephritis"),
+        leading_cause = str_replace(leading_cause, "Certain Conditions originating in the Perinatal Period P00-P96", "Perinatal Period Conditions"),
+        leading_cause = str_replace(leading_cause, "Viral Hepatitis B15-B19", "Viral Hepatitis"),
+        leading_cause = str_replace(leading_cause, "Intentional Self-Harm Suicide: X60-X84, Y87.0", "Suicide"),
+        leading_cause = str_replace(leading_cause, "Congenital Malformations, Deformations, and Chromosomal Abnormalities Q00-Q99", "Congenital Malformations")
+    )
+
+#########################################################
+# Export the cleaned Data
+
+write.csv(death, "./data/nyc_mortality_cleaned.csv")
+
+#########################################################
+# Load the clean data to be used on our shiny App
+
+nyc_mortality = read_csv("./data/nyc_mortality_cleaned.csv")
+########################################################
+```
+
+
+```{r}
+nyc_mortality = read.csv('./data/nyc_mortality_cleaned.csv')
+glimpse(nyc_mortality)
+```
+
+### Part 3 - Exploratory data analysis
+
+The first thing we want to explore is the number of causes of death, and as we can see the data include 26 different categories. 
+
+```{r}
+n_distinct(nyc_mortality$leading_cause, na.rm = FALSE)
+```
+
+Also to take a look at all type of cause of death we 'll use the unique function 
+```{r}
+categories <- unique(nyc_mortality$leading_cause) 
+categories
+```
+**Data Type**
+
+Before continue working on our data, we'll need to fix the class of some variables
+
+```{r}
+sapply(nyc_mortality, class)
+```
+
+**Group Deaths by Years**
+
+The data covered years from 2007 to 2014. So The first thing I wanted to do with the data was to look at how the number of deaths were changing each year. This was done using the code below and produced the graph under the code.
+
+```{r}
+Total <- sum(nyc_mortality$Deaths)
+total_death_yr <- nyc_mortality %>% group_by(year) %>%  summarise(Total.Deaths = sum(deaths))
+total_death_yr
+```
+
+```{r}
+ggplot(data = total_death_yr, aes(x= year,y=Total.Deaths)) + 
+  geom_bar(stat = "identity", color="white", fill='#865ca8')+ scale_x_continuous(breaks = total_death_yr$year)+
+  ggtitle("Number of Deaths by Year") +
+  ylab(label = "Deaths" )+
+  theme(axis.text.x = element_text(angle = 45, hjust=1))
+```
+
+The main take away for this graph is that the number of deaths went down between 2008 and 2009, then goes up after 2010.
+
+#### Summary Statistics
+
+**Data Summary**
+
+First lest plot all numerical variable in our data, so we can be able to glean useful information about the distributions of each variable.
+
+```{r}
+
+nyc_mortality %>%
+ keep(is.double) %>% 
+  tidyr::gather() %>% 
+  ggplot(aes(value)) +
+    facet_wrap(~ key, scales = "free") +
+    geom_histogram()                       
+```
+
+The plot shows non uniform shapes, and indicate that the data is not consistant. when i checked the data i've noticed that a lot of values = 1 in the numerical variables Deaths, Death rates and Age Adjusted Death rate. 
+
+Let's take a look at the data summary statistics :
+
+```{r}
+summary(nyc_mortality)
+```
+
+```{r}
+sd(nyc_mortality$Deaths)
+sd(nyc_mortality$Death.Rate)
+sd(nyc_mortality$age_adjusted_death_rate)
+```
+
+
+The summary explain the non uniformity of the above histograms Min. values is 1 and and the also standard deviation shows that the numbers are more spread out.
+
+
+**Total Death per year by Sex**
+
+```{r}
+total_death_yr_sex <- nyc_mortality %>% group_by(year, sex) %>%  summarise(Total.Deaths = sum(deaths))
+total_death_yr_sex
+```
+Let's look at how a person’s sex is associated with the change in deaths each year
+
+```{r}
+nyc_mortality %>% group_by(year,sex) %>% summarise(Total = sum(as.numeric(deaths)), .groups = 'keep') %>%
+ggplot(aes(year,Total)) +  geom_bar(aes(fill = sex), position ="dodge",stat = "identity") + ylab('Total Death')
+  
+```
+```{r}
+nyc_mortality %>% group_by(sex) %>% summarize(N = n())
+```
+
+
+```{r}
+nyc_mortality %>% group_by(leading_cause) %>% summarize(Total_Age_adjusted = sum(age_adjusted_death_rate))
+
+```
+
+```{r}
+nyc_aadr <- nyc_mortality %>% group_by(leading_cause, race_ethnicity, year) %>% summarize(Total_Age_adjusted = sum(age_adjusted_death_rate), .groups = 'keep')
+head(nyc_aadr)
+```
+
+
+
+
+```{r}
+
+ggplot(nyc_aadr, aes(fill=leading_cause, y=Total_Age_adjusted, x=race_ethnicity)) + guides(fill=guide_legend(ncol=3)) + theme(legend.position="bottom")+
+    geom_bar(position="dodge", stat="identity")
+  #ggtitle("Number of Deaths by Sex and Year") +
+  #ylab(label = "Deaths" )+ scale_fill_brewer(palette = "Paired")
+```
+```{r}
+nyc_aadr %>% min(nyc_aadr$year)
+```
+
+
+**Total Death per year by Race**
+
+Let's take a look on how the deaths by ethnicity changed over time.
+
+```{r}
+total_death_yr_Ethnicity <- nyc_mortality %>% group_by(year, race_ethnicity) %>%  summarise(Total.Deaths = sum(deaths))
+head(total_death_yr_Ethnicity)
+```
+
+```{r}
+nyc_mortality %>% group_by(year,race_ethnicity) %>% summarise(Total = sum(as.numeric(deaths)), .groups = 'keep') %>%
+ggplot(aes(year,Total)) +  geom_bar(aes(fill = race_ethnicity), position ="dodge",stat = "identity") + ylab('Total Death')
+  
+```
+
+
+**Total Deaths by Ethnicity for Males**
+
+```{r}
+total_death_yr_Ethnicity <- nyc_mortality %>% group_by(race_ethnicity, sex) %>%  summarise(Total.Deaths = sum(deaths),  .groups = 'keep') %>% filter( sex == "M")
+Race_Male <- tidyr::spread(total_death_yr_Ethnicity, sex, Total.Deaths)
+
+```
+
+**Total Deaths by Ethnicity for Females**
+
+```{r}
+total_death_yr_Ethnicity <- nyc_mortality %>% group_by(race_ethnicity, sex) %>%  summarise(Total.Deaths = sum(deaths),  .groups = 'keep') %>% filter( sex == "F")
+Race_Femal <- tidyr::spread(total_death_yr_Ethnicity, sex, Total.Deaths)
+```
+
+**Summary Table for Males and Females**
+
+```{r}
+summary_tbl <- left_join(Race_Male, Race_Femal, by = "race_ethnicity")
+summary_tbl_total <- mutate(summary_tbl, Total = M + F)
+```
+
+**Summary Table**
+
+| Race                       | Male  | Female | Total |
+|----------------------------|-------|--------|-------|
+| Asian and Pacific Islander | 30138 | 26229  | 56367 |
+| Black Non-Hispanic         | 14559 | 20760  | 35319 |
+| Hispanic                   | 9641  | 18259  | 27900 |
+| Not Stated/Unknown         | 22569 | 18994  | 41563 |
+| Other Race/ Ethnicity      | 16999 | 14269  | 31268 |
+| White Non-Hispanic         | 22543 | 23630  | 46173 |
+
+**Calculate Percentages**
+
+```{r}
+Total_Death <- sum(summary_tbl_total$Total)
+total_male <- sum(summary_tbl_total$M)
+total_female <- sum(summary_tbl_total$F)
+Perc_Male = (total_male/Total_Death)*100
+Perc_Female = (total_female/Total_Death)*100
+Perc_white = (46173/sum(Total)*100)
+Perc_black = (35319/sum(Total)*100)
+Perc_Hisp = (27900/sum(Total)*100)
+Perc_Asian = (56367/sum(Total)*100)
+Perc_Male
+Perc_Female
+Perc_white
+Perc_black
+Perc_Hisp
+Perc_Asian
+```
+
+In the seven-year span, 238,590 people died. Of the total, 19.35% of them were White, 14.80% were Black, 11.7% were Hispanic and 23.62% were Asian. In regards to sex, 51.2% of deaths were women. 
+
+
+```{r}
+total_death_yr_Ethnicity <- nyc_mortality %>% group_by(year ,race_ethnicity, sex) %>%  summarise(Total.Deaths = sum(deaths))
+ggplot(data = total_death_yr_Ethnicity, aes(x= year,y=Total.Deaths)) + 
+  geom_bar(aes(fill = race_ethnicity), position ="dodge",stat = "identity")+
+  ggtitle("Number of Deaths by Ethnicity and Year") +
+  ylab(label = "Deaths" )+ scale_fill_brewer(palette = "Set3")
+```
+
+Here you can see that over time the number of Asian and Pacific Islander deaths are staying high. Most of the decrease in number of deaths is occurring in black Non-Hispanic. 
+
+**What are the top causes of death in New York City**
+
+```{r}
+death_per_cause <- nyc_mortality %>% group_by(leading_cause) %>%  summarise(Total.Deaths = sum(deaths)) %>%
+arrange(desc(Total.Deaths))
+head(death_per_cause, 10)
+```
+
+
+```{r}
+top_7 <- head(death_per_cause, 7)
+ggplot(mapping = aes(x = reorder(leading_cause, Total.Deaths), y = Total.Deaths), data = top_7) +
+  geom_bar(stat = 'identity') +
+  theme_tufte() +
+  theme(axis.text = element_text(size = 12, face = 'bold')) +
+  coord_flip() +
+  xlab('') +
+  ylab('Total Deaths') +
+  ggtitle("Top 7 Causes of Death")
+```
+Heart disease and Flu/Pneumonia are far away the most important causes of death in New York City.
+
+**Causes of Death by Age Adjusted Death Rate for Male**
+
+```{r}
+df_top_7 <- nyc_mortality[nyc_mortality$leading_cause %in% unique(top_7$leading_cause), ]
+df_top_7 <- arrange(df_top_7, desc(age_adjusted_death_rate))
+ggplot(aes(x = as.double(age_adjusted_death_rate), y = as.double(deaths), color = leading_cause), 
+       data = df_top_7[df_top_7$sex == 'M',]) +
+geom_smooth(method = 'loess') +
+xlab('Age Adjusted Death Rate') +
+ylab('Deaths') +
+ggtitle('Causes of Death by Age Adjusted Death Rate for Male')
+```
+
+### Part 4 - Inference
+
+For this analysis we decided to use the **Age adjusted Death rate** as a dependent Variale (quantitative). **The death rate** as Quantitative independent variable, and the **cause of death** is a qualitative variable. We'll create a New dataframe based on these variables
+
+```{r}
+nyc_mortality2 <- select(nyc_mortality, year,sex, leading_cause, death_rate, age_adjusted_death_rate) 
+nyc_mortality2 <- transform(nyc_mortality2, CauseId=match(leading_cause, unique(leading_cause)))
+```
+
+
+#### Trend Evaluation
+
+**Mann-Kendall Test For Monotonic Trend**
+
+The purpose of the Mann-Kendall (MK) test is to statistically assess if there is a monotonic upward or downward trend of the variable of interest over time.
+
+The MK test tests whether to reject the null hypothesis (H0) and accept the alternative hypothesis (Ha), where :
+
+H0 : No monotonic trend
+Ha : Monotonic trend is present
+
+**Trend 1: Total Deaths**
+
+We'll first check trend analysis for the Total death per year. 
+
+
+```{r}
+library(trend)
+mk.test(total_death_yr$Total.Deaths, continuity = TRUE)
+```
+
+
+S is a positive number, observations obtained later in time tend to be larger than observations made earlier. Also P value < 0.05 tells that there is (monotonic)trend and τ is +ve, increasing trend.
+
+**Trend 2: Male Deaths**
+
+Now we'll check the trend by Sex (M, F)
+
+```{r}
+Death_M <- filter(total_death_yr_sex, sex== "M")
+mk.test(Death_M$Total.Deaths, continuity = TRUE)
+```
+
+**Trend 3: Female Deaths**
+
+```{r}
+Death_M <- filter(total_death_yr_sex, sex== "F")
+mk.test(Death_M$Total.Deaths, continuity = TRUE)
+```
+
+|               | p-value  | S  | tau       |
+|---------------|----------|----|-----------|
+| Total Deaths  | 0.009375 | 22 | 0.7857143 |
+| Male Deaths   | 0.7105   | 4  | 0.1428571 |
+| Female Deaths | 0.01874  | 20 | 0.7142857 |
+
+By comparing the results from the table, We can notice that the tau values of total deaths and Female deaths don't show a large difference compared to the Male Deaths tau value, so the total death trend reflect more the Female deaths trend rather then the Males. 
+
+Also the null hypothesis is rejected for both of Total and Female deaths (p < .05) and not rejected for the Male Deaths p > .05. 
+
+We can do the same thing for the cause of deaths, and check the trend for the top 3 cause of deaths.
+
+**Trend 4: Total Deaths grouped by cause Per Year**
+
+Before looking for trend we'll need to prepare the data, by assigning a value to each **cause of death** category. We'll call it CauseId wich is a number from 1 to 26.
+
+```{r}
+death_per_cause <- nyc_mortality %>% group_by(leading_cause, year) %>%  summarise(Total.Deaths = sum(deaths))
+death_per_cause <- transform(death_per_cause, CauseId=match(leading_cause, unique(leading_cause)))
+death_per_cause <- arrange(death_per_cause, desc(Total.Deaths))
+head(death_per_cause, 10)
+```
+
+```{r}
+mk.test(death_per_cause$Total.Deaths, continuity = TRUE)
+```
+
+
+**Trend 5: Total Hearth Disease Deaths Per Year**
+
+```{r}
+Death_hearth <- filter(death_per_cause, CauseId== "13")
+mk.test(Death_hearth$Total.Deaths, continuity = TRUE)
+```
+
+**Trend 6: Total Flu Deaths per Year**
+
+```{r}
+Death_flu <- filter(death_per_cause, CauseId== "16")
+mk.test(Death_flu$Total.Deaths, continuity = TRUE)
+```
+**Trend 8: Total Diabetes Deaths per Year**
+
+```{r}
+Death_Diabetes <- filter(death_per_cause, CauseId== "12")
+mk.test(Death_Diabetes$Total.Deaths, continuity = TRUE)
+```
+
+|                         | p-value   | S   | tau       |
+|-------------------------|-----------|-----|-----------|
+| Deaths grouped by cause | 0.009375  | 22  | 0.7857143 |
+| Hearth Disease Deaths   | 0.0008366 | -28 | -1        |
+| Female Deaths           | 0.0008366 | -28 | -1        |
+| Diabetes Deaths         | 0.0008366 | -28 | -1        |
+
+The top three death causes show same P, S and tau value : 
+
+S and tau negative ---> strong negative trend and the null hypothesis is rejected the p < .05. 
+
+
+#### Multiple Regression
+
+Y : Age Adjusted Death Rate
+X1 : Death Rate
+X2 : Leading Cause of Death
+
+Assumed equation :
+
+$Y = A_{0} + A_{1}*X_{1} + A_{2}*X_{2}$
+
+```{r}
+
+X1 <- nyc_mortality2$death_rate
+X2 <- nyc_mortality2$CauseId
+Y <- nyc_mortality2$age_adjusted_death_rate
+
+fit <- lm(Y ~ X1 + X2, data=nyc_mortality2)
+summary(fit)
+```
+
+From the summary it can be seen that p-value of the F-statistic is < 2.2e-16, which is highly significant. This means that, at least, one of the predictor variables is significantly related to the outcome variable.
+
+To see which predictor variables are significant, you can examine the coefficients table, which shows the estimate of regression beta coefficients and the associated t-statitic p-values:
+
+```{r}
+summary(fit)$coefficient
+```
+
+For a given the predictor, the t-statistic evaluates whether or not there is significant association between the predictor and the outcome variable, that is whether the beta coefficient of the predictor is significantly different from zero.
+
+It can be seen that, changing vales in Death Rate is significantly associated to changes in Age Adjusted death rate while changes in Leading Cause of deaths is not significantly associated with the Age.
+
+For a given predictor variable, the coefficient (b) can be interpreted as the average effect on y of a one unit increase in predictor, holding all other predictors fixed.
+
+
+```{r}
+confint(fit, level=0.95)
+```
+
+```{r}
+layout(matrix(c(1,2,3,4),2,2))
+plot(fit)
+```
+
+
+
+### Part 5 - Conclusion
+
+The leading cause of death regardless of race, sex or year is heart disease followed by Flu/Pneumonia. 
+Over time the number of Asian and Pacific Islander deaths are staying high. Most of the decrease in number of deaths is occurring in black Non-Hispanic.  from 2007-2009, most Asians regardless of sex has died from heart disease. 
+
+A regression equation was estimated to predict the patterns of cause-of-death in NYC between 2007-2014.  The  primary  goal was to ascertain which independent variables best predicted the log odds of dying of one of the major  causes of death  compared to  dying of other  causes. The best  predictors were age adjusted death rate, age  was  found  to  be an important  variable  in the equation.
+
+
+### References
+
+
+- Cause Specific Infant Mortality in University of Nigeria Teaching Hospital [pdf](https://www.researchgate.net/publication/303383146_Cause_Specific_Infant_Mortality_in_University_of_Nigeria_Teaching_Hospital_Enugu_A_Demographic_Study/download)
+- Non-Parametric Trend Tests andChange-Point Detection, Thorsten Pohlert. [PDF](https://cran.r-project.org/web/packages/trend/vignettes/trend.pdf)
