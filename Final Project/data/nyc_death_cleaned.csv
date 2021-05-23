@@ -1,0 +1,886 @@
+"","year","leading_cause","sex","race_ethnicity","deaths","death_rate","age_adjusted_death_rate"
+"1",2009,"Diseases of Heart","M","Hispanic",1382,123.1,227.9
+"2",2009,"Chronic Lower Respiratory Dis.","M","Hispanic",111,9.9,18.3
+"3",2009,"Diseases of Heart","M","Asian and Pacific Islander",554,108.5,158.8
+"4",2008,"Hypertension & Renal Dis.","M","Black Non-Hispanic",134,15.8,20.9
+"5",2014,"Chronic Liver Disease/Cirrhosis","M","Hispanic",164,13.7,16.7
+"6",2010,"Diabetes Mellitus","F","Hispanic",219,18,21.5
+"7",2012,"Diabetes Mellitus","M","Asian and Pacific Islander",76,14.1,18
+"8",2010,"Diseases of Heart","F","Hispanic",1316,108.1,133.2
+"9",2009,"Malignant Neoplasms","M","Black Non-Hispanic",1557,183.4,228.8
+"10",2009,"Influenza & Pneumonia","F","Hispanic",216,18,22.8
+"11",2013,"Accidents","M","Asian and Pacific Islander",63,11.4,12.8
+"12",2010,"Hypertension & Renal Dis.","M","White Non-Hispanic",153,11.4,9.4
+"13",2011,"Diseases of Heart","M","Asian and Pacific Islander",452,85.5,117.8
+"14",2008,"Diseases of Heart","M","White Non-Hispanic",5503,410,342.3
+"15",2010,"Accidents","M","White Non-Hispanic",271,20.2,18.4
+"16",2011,"Accidents","F","White Non-Hispanic",184,13,8.2
+"17",2007,"Diseases of Heart","M","Hispanic",1327,121.7,238.4
+"18",2007,"Suicide","M","White Non-Hispanic",187,14,12.7
+"19",2008,"Malignant Neoplasms","F","Black Non-Hispanic",1756,167.6,156.3
+"20",2010,"Alzheimer's Disease","F","Hispanic",71,5.8,7.5
+"21",2011,"Diabetes Mellitus","F","Black Non-Hispanic",410,39.2,34.7
+"22",2014,"Hypertension & Renal Dis.","F","White Non-Hispanic",180,12.7,6.7
+"23",2010,"Diabetes Mellitus","M","Hispanic",187,16.4,27.3
+"24",2014,"Accidental Poisoning/Substance Use","M","White Non-Hispanic",314,23.4,21.4
+"25",2014,"Hypertension & Renal Dis.","F","Asian and Pacific Islander",29,4.6,5.1
+"26",2007,"Septicemia","F","Black Non-Hispanic",89,8.5,8.1
+"27",2014,"Suicide","M","White Non-Hispanic",204,15.2,13.4
+"28",2014,"Influenza & Pneumonia","F","Hispanic",218,17.2,18.8
+"29",2014,"Cerebrovascular Disease","M","Hispanic",165,13.8,20.4
+"30",2008,"HIV","M","Hispanic",222,20.1,22.7
+"31",2010,"Cerebrovascular Disease","M","Hispanic",140,12.3,21.4
+"32",2009,"Accidental Poisoning/Substance Use","F","White Non-Hispanic",75,5.2,5.1
+"33",2012,"Hypertension & Renal Dis.","F","Asian and Pacific Islander",39,6.7,7.8
+"34",2010,"Suicide","M","White Non-Hispanic",182,13.6,12.3
+"35",2011,"Perinatal Period Conditions","M","Asian and Pacific Islander",19,3.6,4.2
+"36",2010,"Hypertension & Renal Dis.","M","Asian and Pacific Islander",30,5.8,8.7
+"37",2013,"Influenza & Pneumonia","F","Black Non-Hispanic",285,27.3,22.5
+"38",2013,"Accidents","F","Asian and Pacific Islander",35,5.8,6.3
+"39",2009,"Accidents","M","Black Non-Hispanic",134,15.8,16.8
+"40",2011,"Malignant Neoplasms","F","White Non-Hispanic",3371,238,161.1
+"41",2011,"Alzheimer's Disease","F","White Non-Hispanic",231,16.3,7.2
+"42",2013,"Hypertension & Renal Dis.","M","Black Non-Hispanic",148,17.2,20.9
+"43",2013,"Diabetes Mellitus","F","Hispanic",221,17.7,19.6
+"44",2009,"Chronic Lower Respiratory Dis.","F","Hispanic",155,12.9,16
+"45",2011,"Diabetes Mellitus","M","Black Non-Hispanic",307,36,43.9
+"46",2011,"Hypertension & Renal Dis.","F","Hispanic",83,6.8,8.1
+"47",2009,"Suicide","M","Asian and Pacific Islander",35,6.9,6.7
+"48",2014,"Hypertension & Renal Dis.","F","Black Non-Hispanic",207,19.7,15.9
+"49",2009,"Accidents","M","Hispanic",170,15.1,17.9
+"50",2007,"Assault","M","Hispanic",114,10.5,9.9
+"51",2012,"Cerebrovascular Disease","M","Black Non-Hispanic",170,19.9,23.3
+"52",2012,"Diseases of Heart","M","Black Non-Hispanic",1940,226.8,280.7
+"53",2011,"Chronic Lower Respiratory Dis.","M","White Non-Hispanic",444,33.3,27.8
+"54",2013,"Chronic Lower Respiratory Dis.","F","Hispanic",168,13.5,14.8
+"55",2009,"Chronic Lower Respiratory Dis.","M","Black Non-Hispanic",147,17.3,22.6
+"56",2013,"Chronic Liver Disease/Cirrhosis","M","Hispanic",149,12.6,15.7
+"57",2010,"Diseases of Heart","F","Black Non-Hispanic",2282,217.7,194.2
+"58",2014,"Chronic Lower Respiratory Dis.","F","Asian and Pacific Islander",36,5.8,6.3
+"59",2011,"Cerebrovascular Disease","M","Asian and Pacific Islander",79,15,18.5
+"60",2007,"Accidental Poisoning/Substance Use","M","White Non-Hispanic",261,19.5,17.6
+"61",2010,"Diseases of Heart","M","Hispanic",1354,118.5,215.5
+"62",2010,"Accidents","M","Black Non-Hispanic",147,17.3,18.3
+"63",2009,"HIV","F","Black Non-Hispanic",208,19.9,17.9
+"64",2008,"Congenital Malformations","M","Asian and Pacific Islander",14,2.8,3
+"65",2009,"Alzheimer's Disease","F","Black Non-Hispanic",79,7.5,6.8
+"66",2008,"Cerebrovascular Disease","M","Hispanic",124,11.2,18.8
+"67",2010,"Cerebrovascular Disease","F","Hispanic",168,13.8,16.7
+"68",2007,"Cerebrovascular Disease","M","Black Non-Hispanic",213,25,33
+"69",2009,"Alzheimer's Disease","F","Hispanic",56,4.7,6.2
+"70",2013,"Chronic Lower Respiratory Dis.","F","White Non-Hispanic",521,36.6,21.6
+"71",2010,"Influenza & Pneumonia","M","Hispanic",235,20.6,38.9
+"72",2008,"Assault","M","Black Non-Hispanic",286,33.7,33.8
+"73",2012,"Chronic Lower Respiratory Dis.","M","Asian and Pacific Islander",55,10.2,15.1
+"74",2012,"Influenza & Pneumonia","M","White Non-Hispanic",540,40.3,32.3
+"75",2010,"Cerebrovascular Disease","F","Black Non-Hispanic",259,24.7,22.2
+"76",2011,"Diabetes Mellitus","M","Asian and Pacific Islander",60,11.4,14.3
+"77",2007,"Diseases of Heart","F","Asian and Pacific Islander",428,83.1,115.2
+"78",2011,"Hypertension & Renal Dis.","F","Black Non-Hispanic",225,21.5,18.7
+"79",2009,"Influenza & Pneumonia","F","White Non-Hispanic",629,43.8,23.1
+"80",2011,"Cerebrovascular Disease","F","Asian and Pacific Islander",98,17.2,20.6
+"81",2014,"Cerebrovascular Disease","F","Hispanic",220,17.4,19
+"82",2012,"Suicide","F","Asian and Pacific Islander",33,5.6,5.8
+"83",2008,"Chronic Lower Respiratory Dis.","F","White Non-Hispanic",518,36.1,21.4
+"84",2007,"Influenza & Pneumonia","M","White Non-Hispanic",530,39.6,32.9
+"85",2010,"Influenza & Pneumonia","M","Asian and Pacific Islander",108,20.7,31.7
+"86",2014,"Chronic Lower Respiratory Dis.","M","White Non-Hispanic",399,29.7,24
+"87",2010,"Influenza & Pneumonia","F","White Non-Hispanic",707,49.4,24.8
+"88",2007,"Suicide","F","Asian and Pacific Islander",22,4.3,3.9
+"89",2008,"Chronic Lower Respiratory Dis.","M","Asian and Pacific Islander",46,9.2,16.1
+"90",2013,"Suicide","M","White Non-Hispanic",204,15.2,13.6
+"91",2008,"Diabetes Mellitus","M","White Non-Hispanic",246,18.3,15.6
+"92",2009,"Cerebrovascular Disease","M","Asian and Pacific Islander",58,11.4,15.5
+"93",2010,"Assault","M","Black Non-Hispanic",299,35.1,35.5
+"94",2008,"Hypertension & Renal Dis.","F","Hispanic",104,8.8,11.4
+"95",2010,"Malignant Neoplasms","F","Asian and Pacific Islander",414,73.6,79.9
+"96",2010,"Perinatal Period Conditions","F","Asian and Pacific Islander",18,3.2,4
+"97",2011,"Cerebrovascular Disease","F","White Non-Hispanic",466,32.9,17.6
+"98",2009,"Alzheimer's Disease","F","Asian and Pacific Islander",14,2.5,3.6
+"99",2011,"Chronic Lower Respiratory Dis.","M","Hispanic",123,10.7,19.2
+"100",2007,"Accidental Poisoning/Substance Use","M","Black Non-Hispanic",163,19.1,19
+"101",2010,"Chronic Lower Respiratory Dis.","F","Hispanic",156,12.8,15.4
+"102",2007,"Suicide","M","Asian and Pacific Islander",36,7.4,7.7
+"103",2007,"Influenza & Pneumonia","F","White Non-Hispanic",659,45.9,23.2
+"104",2008,"Cerebrovascular Disease","F","Asian and Pacific Islander",65,12.2,15.4
+"105",2007,"Cerebrovascular Disease","F","Asian and Pacific Islander",70,13.6,17.6
+"106",2013,"Diabetes Mellitus","M","Black Non-Hispanic",300,35,41.1
+"107",2014,"Influenza & Pneumonia","F","Black Non-Hispanic",266,25.3,20.6
+"108",2009,"Influenza & Pneumonia","F","Black Non-Hispanic",281,26.8,24.5
+"109",2013,"Influenza & Pneumonia","M","Asian and Pacific Islander",102,18.4,26.8
+"110",2011,"Accidents","M","White Non-Hispanic",272,20.4,18.1
+"111",2008,"Accidents","M","Black Non-Hispanic",146,17.2,18.1
+"112",2013,"HIV","M","Black Non-Hispanic",204,23.8,23.2
+"113",2007,"Cerebrovascular Disease","M","Asian and Pacific Islander",56,11.6,16.2
+"114",2012,"Malignant Neoplasms","F","Hispanic",1125,90.8,100.5
+"115",2012,"Diseases of Heart","F","Asian and Pacific Islander",402,68.8,81.2
+"116",2008,"Chronic Lower Respiratory Dis.","M","Hispanic",132,11.9,22.8
+"117",2010,"Diabetes Mellitus","M","White Non-Hispanic",245,18.3,15.6
+"118",2012,"Hypertension & Renal Dis.","F","White Non-Hispanic",199,14,7.2
+"119",2009,"Malignant Neoplasms","F","White Non-Hispanic",3346,232.9,159
+"120",2012,"Diseases of Heart","M","Asian and Pacific Islander",469,86.8,116.9
+"121",2010,"Malignant Neoplasms","F","Hispanic",1045,85.9,98.5
+"122",2007,"Malignant Neoplasms","F","Hispanic",969,83,100.7
+"123",2012,"Suicide","M","White Non-Hispanic",199,14.9,13.6
+"124",2007,"Septicemia","F","Hispanic",49,4.2,5.5
+"125",2011,"HIV","F","Hispanic",70,5.7,5.7
+"126",2014,"Alzheimer's Disease","F","Hispanic",142,11.2,12.5
+"127",2010,"Diseases of Heart","F","Asian and Pacific Islander",394,70.1,89.7
+"128",2012,"Assault","M","Black Non-Hispanic",235,27.5,27.6
+"129",2007,"Diseases of Heart","F","Black Non-Hispanic",2722,258.6,247.3
+"130",2009,"Nephritis","F","Black Non-Hispanic",75,7.2,6.7
+"131",2009,"Malignant Neoplasms","M","Hispanic",1180,105.1,172.2
+"132",2007,"Accidental Poisoning/Substance Use","F","Black Non-Hispanic",87,8.3,7.4
+"133",2011,"Accidental Poisoning/Substance Use","F","Hispanic",56,4.6,4.5
+"134",2013,"Diabetes Mellitus","M","Hispanic",192,16.3,24.9
+"135",2013,"Viral Hepatitis","F","Asian and Pacific Islander",15,2.5,2.5
+"136",2014,"Nephritis","F","Black Non-Hispanic",90,8.6,7.1
+"137",2007,"Cerebrovascular Disease","F","Hispanic",164,14,18.3
+"138",2014,"Diseases of Heart","F","White Non-Hispanic",4507,318,161
+"139",2011,"Diabetes Mellitus","F","Asian and Pacific Islander",51,8.9,10.7
+"140",2007,"Chronic Lower Respiratory Dis.","F","Black Non-Hispanic",163,15.5,14.8
+"141",2011,"Influenza & Pneumonia","F","Asian and Pacific Islander",83,14.5,17.8
+"142",2013,"Nephritis","F","Black Non-Hispanic",93,8.9,7.6
+"143",2012,"Cerebrovascular Disease","M","Asian and Pacific Islander",70,13,17.5
+"144",2012,"HIV","F","Black Non-Hispanic",136,13,11.6
+"145",2013,"Chronic Lower Respiratory Dis.","M","Asian and Pacific Islander",72,13,18.5
+"146",2011,"Accidents","F","Asian and Pacific Islander",43,7.5,8.5
+"147",2013,"Cerebrovascular Disease","F","Black Non-Hispanic",271,25.9,21.7
+"148",2011,"Assault","M","Black Non-Hispanic",266,31.2,31.5
+"149",2008,"Accidents","M","White Non-Hispanic",272,20.3,18.4
+"150",2008,"Accidental Poisoning/Substance Use","M","White Non-Hispanic",227,16.9,15.5
+"151",2010,"Diseases of Heart","M","Black Non-Hispanic",2015,236.7,307.7
+"152",2010,"Malignant Neoplasms","F","Black Non-Hispanic",1768,168.6,151.8
+"153",2011,"Diseases of Heart","F","Asian and Pacific Islander",402,70.5,86.1
+"154",2011,"Chronic Lower Respiratory Dis.","M","Black Non-Hispanic",200,23.4,29.1
+"155",2008,"Chronic Liver Disease/Cirrhosis","F","Hispanic",63,5.3,6.2
+"156",2008,"Influenza & Pneumonia","F","Hispanic",227,19.2,25.5
+"157",2008,"Accidental Poisoning/Substance Use","M","Hispanic",172,15.6,16.3
+"158",2014,"Chronic Lower Respiratory Dis.","F","Hispanic",193,15.2,16.8
+"159",2008,"Diabetes Mellitus","F","Black Non-Hispanic",380,36.3,34.3
+"160",2008,"Chronic Lower Respiratory Dis.","F","Hispanic",156,13.2,16.8
+"161",2008,"Hypertension & Renal Dis.","F","Black Non-Hispanic",192,18.3,17.1
+"162",2014,"Accidents","F","Asian and Pacific Islander",42,6.7,6.9
+"163",2008,"Chronic Lower Respiratory Dis.","F","Asian and Pacific Islander",30,5.6,7.9
+"164",2007,"Diabetes Mellitus","F","White Non-Hispanic",231,16.1,9.8
+"165",2010,"Alzheimer's Disease","F","White Non-Hispanic",247,17.3,7.5
+"166",2010,"Chronic Lower Respiratory Dis.","M","White Non-Hispanic",388,28.9,24.2
+"167",2009,"Hypertension & Renal Dis.","M","Asian and Pacific Islander",26,5.1,7.2
+"168",2013,"Diabetes Mellitus","F","Asian and Pacific Islander",60,10,10.9
+"169",2014,"Diseases of Heart","M","White Non-Hispanic",3990,297.1,238.4
+"170",2007,"Cerebrovascular Disease","M","Hispanic",126,11.6,20
+"171",2011,"Diseases of Heart","M","Black Non-Hispanic",1840,215.7,268.3
+"172",2014,"Accidental Poisoning/Substance Use","M","Hispanic",191,16,16.6
+"173",2007,"Hypertension & Renal Dis.","F","White Non-Hispanic",155,10.8,5.9
+"174",2013,"Influenza & Pneumonia","F","Asian and Pacific Islander",78,13,14.6
+"175",2011,"Cerebrovascular Disease","M","White Non-Hispanic",290,21.7,18.2
+"176",2012,"Diabetes Mellitus","F","Asian and Pacific Islander",57,9.8,11.4
+"177",2010,"Chronic Lower Respiratory Dis.","F","Asian and Pacific Islander",28,5,6.7
+"178",2007,"Accidents","F","Asian and Pacific Islander",32,6.2,7.6
+"179",2012,"Cerebrovascular Disease","F","White Non-Hispanic",416,29.3,15.4
+"180",2014,"Influenza & Pneumonia","M","Black Non-Hispanic",242,28,33.9
+"181",2014,"Influenza & Pneumonia","M","Hispanic",199,16.7,26.6
+"182",2007,"Diabetes Mellitus","M","White Non-Hispanic",237,17.7,15
+"183",2012,"Accidental Poisoning/Substance Use","M","White Non-Hispanic",272,20.3,18.7
+"184",2011,"Diseases of Heart","F","Black Non-Hispanic",2243,214.3,186.7
+"185",2010,"Accidents","F","Hispanic",58,4.8,5.2
+"186",2007,"Chronic Lower Respiratory Dis.","F","Hispanic",116,9.9,12.8
+"187",2008,"Influenza & Pneumonia","F","Asian and Pacific Islander",73,13.7,19.1
+"188",2008,"Accidents","M","Hispanic",186,16.8,20.6
+"189",2008,"Chronic Lower Respiratory Dis.","M","Black Non-Hispanic",169,19.9,26.4
+"190",2013,"Hypertension & Renal Dis.","M","White Non-Hispanic",156,11.6,9.3
+"191",2009,"Accidents","F","Asian and Pacific Islander",37,6.7,8
+"192",2009,"Accidental Poisoning/Substance Use","M","White Non-Hispanic",221,16.4,14.8
+"193",2012,"Accidents","M","Hispanic",191,16.3,19.7
+"194",2008,"Malignant Neoplasms","F","Asian and Pacific Islander",344,64.6,73.8
+"195",2009,"Influenza & Pneumonia","M","Black Non-Hispanic",207,24.4,33.3
+"196",2009,"Cerebrovascular Disease","F","Hispanic",154,12.9,16
+"197",2008,"Diabetes Mellitus","M","Asian and Pacific Islander",52,10.4,14.9
+"198",2014,"Diabetes Mellitus","M","Hispanic",186,15.6,23.2
+"199",2012,"Accidents","M","Black Non-Hispanic",152,17.8,18.6
+"200",2008,"Cerebrovascular Disease","F","Hispanic",152,12.9,16.4
+"201",2008,"Diabetes Mellitus","F","Hispanic",228,19.3,24.1
+"202",2012,"Hypertension & Renal Dis.","M","White Non-Hispanic",153,11.4,9.3
+"203",2008,"HIV","F","Hispanic",113,9.6,9.6
+"204",2014,"Cerebrovascular Disease","F","White Non-Hispanic",418,29.5,15.6
+"205",2014,"Malignant Neoplasms","F","Asian and Pacific Islander",502,80.2,80.6
+"206",2011,"Alzheimer's Disease","F","Asian and Pacific Islander",24,4.2,5.4
+"207",2014,"Septicemia","F","White Non-Hispanic",118,8.3,4.7
+"208",2007,"Influenza & Pneumonia","F","Black Non-Hispanic",295,28,26.9
+"209",2011,"Accidental Poisoning/Substance Use","F","White Non-Hispanic",88,6.2,6.1
+"210",2008,"Cerebrovascular Disease","F","Black Non-Hispanic",267,25.5,23.6
+"211",2007,"Influenza & Pneumonia","F","Hispanic",190,16.3,22.3
+"212",2012,"Influenza & Pneumonia","M","Hispanic",205,17.5,31.5
+"213",2011,"Hypertension & Renal Dis.","M","Black Non-Hispanic",154,18.1,21.7
+"214",2009,"Diabetes Mellitus","F","Black Non-Hispanic",384,36.7,33.7
+"215",2012,"Cerebrovascular Disease","F","Asian and Pacific Islander",102,17.5,20.7
+"216",2011,"Malignant Neoplasms","M","Hispanic",1144,99.2,157.7
+"217",2014,"Influenza & Pneumonia","M","White Non-Hispanic",502,37.4,29.7
+"218",2011,"Diabetes Mellitus","M","Hispanic",200,17.3,29.2
+"219",2008,"Cerebrovascular Disease","M","Asian and Pacific Islander",48,9.6,14.1
+"220",2008,"Nephritis","F","Asian and Pacific Islander",13,2.4,3.3
+"221",2009,"HIV","F","Hispanic",96,8,8.1
+"222",2011,"Diseases of Heart","M","White Non-Hispanic",4220,316.4,260.2
+"223",2008,"HIV","M","Black Non-Hispanic",356,41.9,41.8
+"224",2009,"Chronic Lower Respiratory Dis.","F","White Non-Hispanic",458,31.9,19.1
+"225",2008,"Diabetes Mellitus","M","Hispanic",191,17.3,31.3
+"226",2009,"Diabetes Mellitus","F","Asian and Pacific Islander",55,10,12.7
+"227",2010,"Hypertension & Renal Dis.","F","Hispanic",95,7.8,9.5
+"228",2008,"Chronic Lower Respiratory Dis.","M","White Non-Hispanic",347,25.9,21.8
+"229",2013,"Cerebrovascular Disease","F","Asian and Pacific Islander",80,13.3,14.4
+"230",2009,"Accidental Poisoning/Substance Use","M","Hispanic",145,12.9,13.5
+"231",2009,"Accidental Poisoning/Substance Use","F","Hispanic",57,4.8,4.7
+"232",2007,"Alzheimer's Disease","F","White Non-Hispanic",107,7.5,3.5
+"233",2010,"Malignant Neoplasms","M","White Non-Hispanic",3408,254.1,216.6
+"234",2011,"HIV","F","Black Non-Hispanic",144,13.8,12.4
+"235",2011,"Diseases of Heart","F","White Non-Hispanic",5016,354.1,179.8
+"236",2013,"Cerebrovascular Disease","M","Asian and Pacific Islander",71,12.8,16.1
+"237",2009,"Chronic Liver Disease/Cirrhosis","M","Hispanic",119,10.6,14.1
+"238",2011,"Chronic Lower Respiratory Dis.","M","Asian and Pacific Islander",73,13.8,22
+"239",2011,"Suicide","F","Asian and Pacific Islander",21,3.7,3.7
+"240",2013,"Diseases of Heart","F","Black Non-Hispanic",2365,226.4,187.3
+"241",2012,"Suicide","M","Asian and Pacific Islander",40,7.4,7.3
+"242",2012,"Nephritis","F","Black Non-Hispanic",76,7.3,6.3
+"243",2007,"Influenza & Pneumonia","F","Asian and Pacific Islander",58,11.3,15.8
+"244",2012,"Cerebrovascular Disease","F","Hispanic",169,13.6,15.7
+"245",2014,"Hypertension & Renal Dis.","M","Black Non-Hispanic",155,18,21.6
+"246",2009,"Malignant Neoplasms","F","Asian and Pacific Islander",398,72.5,83.5
+"247",2011,"Chronic Lower Respiratory Dis.","F","Black Non-Hispanic",221,21.1,18.6
+"248",2013,"Diseases of Heart","M","Asian and Pacific Islander",531,95.8,123.7
+"249",2010,"Suicide","M","Asian and Pacific Islander",46,8.8,8.7
+"250",2013,"Chronic Liver Disease/Cirrhosis","M","Asian and Pacific Islander",29,5.2,5.4
+"251",2008,"Diseases of Heart","F","Black Non-Hispanic",2725,260.1,243.6
+"252",2010,"Influenza & Pneumonia","F","Asian and Pacific Islander",74,13.2,16.9
+"253",2010,"Accidental Poisoning/Substance Use","M","White Non-Hispanic",211,15.7,14.5
+"254",2007,"Diseases of Heart","M","Black Non-Hispanic",2121,248.9,340.2
+"255",2014,"Chronic Lower Respiratory Dis.","F","Black Non-Hispanic",220,21,17.9
+"256",2008,"Malignant Neoplasms","M","Asian and Pacific Islander",473,95,123.5
+"257",2014,"Alzheimer's Disease","F","Asian and Pacific Islander",26,4.2,4.7
+"258",2010,"Cerebrovascular Disease","F","Asian and Pacific Islander",89,15.8,19.2
+"259",2013,"Diabetes Mellitus","M","Asian and Pacific Islander",96,17.3,21.1
+"260",2012,"Hypertension & Renal Dis.","M","Black Non-Hispanic",143,16.7,21.3
+"261",2012,"Chronic Lower Respiratory Dis.","F","Black Non-Hispanic",204,19.5,16.9
+"262",2014,"Accidents","M","White Non-Hispanic",258,19.2,16.4
+"263",2007,"Malignant Neoplasms","F","Asian and Pacific Islander",395,76.7,88.4
+"264",2008,"Suicide","M","White Non-Hispanic",195,14.5,13.1
+"265",2011,"Cerebrovascular Disease","M","Hispanic",147,12.8,20.9
+"266",2014,"Cerebrovascular Disease","F","Black Non-Hispanic",274,26.1,21.4
+"267",2014,"Chronic Lower Respiratory Dis.","M","Black Non-Hispanic",186,21.5,25.4
+"268",2010,"HIV","F","Black Non-Hispanic",152,14.5,12.9
+"269",2010,"Hypertension & Renal Dis.","M","Black Non-Hispanic",178,20.9,27.7
+"270",2007,"Malignant Neoplasms","F","White Non-Hispanic",3518,245.2,167.4
+"271",2013,"Alzheimer's Disease","F","Black Non-Hispanic",106,10.1,8
+"272",2014,"Suicide","M","Asian and Pacific Islander",50,8.7,8.7
+"273",2014,"Assault","M","Black Non-Hispanic",186,21.5,21.5
+"274",2008,"Hypertension & Renal Dis.","F","Asian and Pacific Islander",32,6,8
+"275",2007,"Diseases of Heart","M","White Non-Hispanic",5632,421,350.7
+"276",2014,"Suicide","F","Asian and Pacific Islander",28,4.5,4.2
+"277",2009,"Cerebrovascular Disease","M","White Non-Hispanic",227,16.9,14.2
+"278",2013,"Diabetes Mellitus","M","White Non-Hispanic",265,19.7,16.4
+"279",2010,"Diseases of Heart","M","White Non-Hispanic",4495,335.1,277
+"280",2010,"Accidents","F","White Non-Hispanic",163,11.4,7.8
+"281",2009,"Chronic Liver Disease/Cirrhosis","M","Asian and Pacific Islander",17,3.3,3.5
+"282",2011,"Malignant Neoplasms","M","Black Non-Hispanic",1590,186.4,224.4
+"283",2010,"Influenza & Pneumonia","M","Black Non-Hispanic",201,23.6,31.8
+"284",2012,"Diabetes Mellitus","F","White Non-Hispanic",240,16.9,10.3
+"285",2008,"HIV","F","Black Non-Hispanic",227,21.7,20
+"286",2007,"Accidents","F","White Non-Hispanic",162,11.3,7.3
+"287",2014,"Influenza & Pneumonia","M","Asian and Pacific Islander",105,18.3,25
+"288",2012,"Chronic Lower Respiratory Dis.","M","White Non-Hispanic",352,26.3,21.8
+"289",2009,"Diabetes Mellitus","M","White Non-Hispanic",290,21.6,18.2
+"290",2012,"HIV","M","Hispanic",103,8.8,10.1
+"291",2013,"Accidental Poisoning/Substance Use","F","Hispanic",63,5,4.9
+"292",2007,"HIV","F","Hispanic",109,9.3,9.5
+"293",2011,"Accidents","M","Asian and Pacific Islander",61,11.5,14.8
+"294",2008,"Diseases of Heart","M","Black Non-Hispanic",2077,244.6,330.2
+"295",2013,"Septicemia","F","White Non-Hispanic",135,9.5,5
+"296",2008,"Cerebrovascular Disease","M","White Non-Hispanic",245,18.3,15.4
+"297",2010,"Influenza & Pneumonia","M","White Non-Hispanic",614,45.8,37.6
+"298",2013,"Chronic Lower Respiratory Dis.","M","White Non-Hispanic",437,32.5,26.4
+"299",2012,"Accidents","F","Asian and Pacific Islander",34,5.8,6.4
+"300",2013,"Alzheimer's Disease","F","White Non-Hispanic",263,18.5,8.4
+"301",2007,"Cerebrovascular Disease","F","Black Non-Hispanic",279,26.5,25.3
+"302",2013,"Malignant Neoplasms","M","Hispanic",1146,97.1,148.5
+"303",2013,"Accidents","M","Hispanic",189,16,19
+"304",2012,"Hypertension & Renal Dis.","M","Asian and Pacific Islander",39,7.2,10.8
+"305",2010,"Diabetes Mellitus","F","White Non-Hispanic",258,18,11.1
+"306",2009,"Influenza & Pneumonia","M","White Non-Hispanic",555,41.3,34.3
+"307",2014,"Chronic Liver Disease/Cirrhosis","F","Hispanic",66,5.2,5.4
+"308",2012,"Diseases of Heart","M","White Non-Hispanic",4156,310.3,252.4
+"309",2011,"Influenza & Pneumonia","F","Hispanic",218,17.8,21.5
+"310",2011,"Malignant Neoplasms","F","Hispanic",1085,88.6,99.6
+"311",2009,"Accidents","M","White Non-Hispanic",279,20.7,18.7
+"312",2010,"Accidental Poisoning/Substance Use","M","Hispanic",138,12.1,12.9
+"313",2011,"Suicide","M","Asian and Pacific Islander",49,9.3,9.4
+"314",2009,"Influenza & Pneumonia","M","Hispanic",183,16.3,30.9
+"315",2014,"Diabetes Mellitus","M","White Non-Hispanic",292,21.7,18.1
+"316",2012,"Chronic Lower Respiratory Dis.","M","Hispanic",132,11.3,19.2
+"317",2013,"Malignant Neoplasms","M","Black Non-Hispanic",1592,185.5,212.8
+"318",2014,"HIV","M","Black Non-Hispanic",196,22.7,21.7
+"319",2012,"Alzheimer's Disease","F","Black Non-Hispanic",115,11,8.9
+"320",2012,"HIV","M","Black Non-Hispanic",223,26.1,25.8
+"321",2011,"Malignant Neoplasms","F","Asian and Pacific Islander",451,79.1,86.1
+"322",2013,"Accidents","F","White Non-Hispanic",166,11.7,8.1
+"323",2007,"Chronic Lower Respiratory Dis.","M","White Non-Hispanic",345,25.8,21.7
+"324",2014,"Malignant Neoplasms","M","White Non-Hispanic",3142,234,195.1
+"325",2014,"Diseases of Heart","F","Black Non-Hispanic",2194,209.1,169.1
+"326",2009,"Cerebrovascular Disease","F","Asian and Pacific Islander",61,11.1,14.1
+"327",2007,"HIV","M","Hispanic",218,20,23.1
+"328",2008,"Accidents","F","Hispanic",68,5.8,6.6
+"329",2011,"Diabetes Mellitus","F","White Non-Hispanic",253,17.9,11.1
+"330",2014,"Malignant Neoplasms","M","Hispanic",1146,96,143.5
+"331",2009,"HIV","M","Black Non-Hispanic",329,38.7,38.5
+"332",2014,"Cerebrovascular Disease","M","Asian and Pacific Islander",91,15.9,19.3
+"333",2007,"Accidents","F","Hispanic",71,6.1,7.1
+"334",2013,"Cerebrovascular Disease","F","Hispanic",222,17.8,19.8
+"335",2010,"Cerebrovascular Disease","M","White Non-Hispanic",276,20.6,17.2
+"336",2007,"Diseases of Heart","F","White Non-Hispanic",7050,491.4,250.7
+"337",2014,"Diabetes Mellitus","F","Black Non-Hispanic",398,37.9,31.6
+"338",2013,"Accidental Poisoning/Substance Use","M","White Non-Hispanic",286,21.2,19.5
+"339",2007,"Accidents","M","Hispanic",154,14.1,17.4
+"340",2011,"Accidental Poisoning/Substance Use","M","Black Non-Hispanic",135,15.8,14.8
+"341",2007,"Diseases of Heart","M","Asian and Pacific Islander",496,102.5,157.8
+"342",2008,"Diseases of Heart","F","White Non-Hispanic",6836,476.2,245.5
+"343",2010,"Influenza & Pneumonia","F","Black Non-Hispanic",275,26.2,23.6
+"344",2007,"Diabetes Mellitus","M","Asian and Pacific Islander",47,9.7,13.6
+"345",2009,"Accidents","M","Asian and Pacific Islander",55,10.8,12.3
+"346",2011,"Diabetes Mellitus","M","White Non-Hispanic",258,19.3,16.3
+"347",2014,"Malignant Neoplasms","F","White Non-Hispanic",3153,222.5,150.2
+"348",2009,"Malignant Neoplasms","F","Black Non-Hispanic",1735,165.7,151.1
+"349",2007,"HIV","M","Black Non-Hispanic",377,44.2,44.2
+"350",2009,"HIV","M","Hispanic",196,17.5,20
+"351",2012,"Chronic Lower Respiratory Dis.","F","White Non-Hispanic",507,35.7,21.4
+"352",2010,"Diseases of Heart","F","White Non-Hispanic",5351,374.2,189.2
+"353",2012,"Diabetes Mellitus","M","Hispanic",194,16.6,26.1
+"354",2010,"Chronic Lower Respiratory Dis.","F","White Non-Hispanic",501,35,20.7
+"355",2010,"Accidents","F","Asian and Pacific Islander",25,4.4,5.1
+"356",2013,"Malignant Neoplasms","F","Hispanic",1149,92.1,99.9
+"357",2008,"Malignant Neoplasms","M","White Non-Hispanic",3361,250.4,214.3
+"358",2013,"Chronic Lower Respiratory Dis.","F","Black Non-Hispanic",258,24.7,20.8
+"359",2010,"Chronic Lower Respiratory Dis.","M","Asian and Pacific Islander",61,11.7,17.8
+"360",2014,"Accidents","F","White Non-Hispanic",169,11.9,7.4
+"361",2010,"Cerebrovascular Disease","F","White Non-Hispanic",382,26.7,14.1
+"362",2012,"Nephritis","F","Asian and Pacific Islander",22,3.8,4.3
+"363",2014,"HIV","F","Black Non-Hispanic",102,9.7,8.5
+"364",2010,"Accidents","M","Hispanic",132,11.6,13.9
+"365",2008,"Influenza & Pneumonia","M","Asian and Pacific Islander",90,18.1,30.2
+"366",2014,"HIV","M","Hispanic",92,7.7,8.7
+"367",2012,"Chronic Liver Disease/Cirrhosis","M","Asian and Pacific Islander",20,3.7,4.1
+"368",2012,"Cerebrovascular Disease","M","Hispanic",129,11,17.2
+"369",2009,"Diseases of Heart","F","Hispanic",1349,112.7,143.8
+"370",2008,"Diseases of Heart","M","Hispanic",1330,120.3,228
+"371",2012,"Cerebrovascular Disease","M","White Non-Hispanic",285,21.3,17.6
+"372",2007,"Malignant Neoplasms","M","Black Non-Hispanic",1523,178.7,229.4
+"373",2013,"Diseases of Heart","M","White Non-Hispanic",4085,303.5,244.3
+"374",2012,"Malignant Neoplasms","M","White Non-Hispanic",3184,237.7,200.7
+"375",2014,"Chronic Lower Respiratory Dis.","M","Hispanic",145,12.1,19.3
+"376",2012,"Malignant Neoplasms","M","Asian and Pacific Islander",622,115.1,138.4
+"377",2010,"Malignant Neoplasms","M","Hispanic",1057,92.5,150
+"378",2013,"Malignant Neoplasms","M","Asian and Pacific Islander",633,114.2,130.9
+"379",2009,"Diseases of Heart","F","Asian and Pacific Islander",448,81.6,108.7
+"380",2007,"Accidents","M","White Non-Hispanic",297,22.2,19.8
+"381",2010,"Chronic Lower Respiratory Dis.","M","Hispanic",149,13,23.9
+"382",2009,"Malignant Neoplasms","F","Hispanic",1097,91.6,107.2
+"383",2008,"Diseases of Heart","M","Asian and Pacific Islander",546,109.6,166.3
+"384",2012,"Accidents","M","White Non-Hispanic",286,21.4,18.8
+"385",2014,"Cerebrovascular Disease","M","White Non-Hispanic",277,20.6,16.8
+"386",2012,"Influenza & Pneumonia","F","Asian and Pacific Islander",74,12.7,15.1
+"387",2013,"Suicide","M","Asian and Pacific Islander",41,7.4,7.2
+"388",2012,"Diseases of Heart","F","White Non-Hispanic",4719,332.7,167.7
+"389",2008,"Diseases of Heart","F","Asian and Pacific Islander",456,85.6,117.7
+"390",2007,"Chronic Lower Respiratory Dis.","M","Asian and Pacific Islander",43,8.9,16.7
+"391",2013,"Septicemia","F","Asian and Pacific Islander",16,2.7,2.9
+"392",2007,"Hypertension & Renal Dis.","M","White Non-Hispanic",123,9.2,7.6
+"393",2014,"Cerebrovascular Disease","M","Black Non-Hispanic",197,22.8,26.4
+"394",2011,"Chronic Lower Respiratory Dis.","F","White Non-Hispanic",510,36,21
+"395",2011,"Diseases of Heart","M","Hispanic",1201,104.2,180.8
+"396",2008,"Cerebrovascular Disease","M","Black Non-Hispanic",206,24.3,31
+"397",2010,"Chronic Lower Respiratory Dis.","F","Black Non-Hispanic",206,19.6,17.7
+"398",2007,"Accidents","M","Asian and Pacific Islander",53,11,13
+"399",2008,"Hypertension & Renal Dis.","F","White Non-Hispanic",151,10.5,5.9
+"400",2008,"Malignant Neoplasms","F","Hispanic",1046,88.5,104.7
+"401",2011,"Influenza & Pneumonia","F","White Non-Hispanic",696,49.1,25.4
+"402",2013,"Accidents","M","Black Non-Hispanic",159,18.5,19.1
+"403",2011,"Cerebrovascular Disease","F","Black Non-Hispanic",281,26.8,23.6
+"404",2009,"Malignant Neoplasms","M","White Non-Hispanic",3236,240.5,205.6
+"405",2011,"Influenza & Pneumonia","M","Asian and Pacific Islander",94,17.8,28.7
+"406",2011,"Malignant Neoplasms","F","Black Non-Hispanic",1918,183.2,163.3
+"407",2007,"Chronic Lower Respiratory Dis.","M","Black Non-Hispanic",137,16.1,22.7
+"408",2008,"Hypertension & Renal Dis.","M","White Non-Hispanic",165,12.3,10.3
+"409",2009,"Hypertension & Renal Dis.","F","Asian and Pacific Islander",18,3.3,4.6
+"410",2008,"Influenza & Pneumonia","M","Hispanic",187,16.9,35.5
+"411",2010,"Chronic Liver Disease/Cirrhosis","M","Hispanic",150,13.1,17.6
+"412",2009,"Cerebrovascular Disease","M","Black Non-Hispanic",154,18.1,22.8
+"413",2008,"Accidents","F","Asian and Pacific Islander",36,6.8,8.5
+"414",2013,"Malignant Neoplasms","F","Asian and Pacific Islander",467,77.8,79.6
+"415",2013,"Accidents","F","Hispanic",60,4.8,5.1
+"416",2007,"Hypertension & Renal Dis.","F","Asian and Pacific Islander",22,4.3,6.3
+"417",2013,"Diseases of Heart","M","Hispanic",1307,110.7,183.3
+"418",2013,"Diabetes Mellitus","F","Black Non-Hispanic",410,39.3,33.1
+"419",2014,"Diabetes Mellitus","F","Asian and Pacific Islander",50,8,8.5
+"420",2013,"Diseases of Heart","F","Asian and Pacific Islander",437,72.8,81.8
+"421",2007,"Influenza & Pneumonia","M","Hispanic",189,17.3,36.7
+"422",2011,"Cerebrovascular Disease","F","Hispanic",179,14.6,17.3
+"423",2008,"Nephritis","M","Asian and Pacific Islander",14,2.8,4.9
+"424",2009,"Influenza & Pneumonia","M","Asian and Pacific Islander",84,16.5,26.1
+"425",2007,"Chronic Lower Respiratory Dis.","F","Asian and Pacific Islander",29,5.6,7.9
+"426",2009,"Chronic Lower Respiratory Dis.","M","White Non-Hispanic",371,27.6,23.3
+"427",2007,"Diabetes Mellitus","M","Hispanic",177,16.2,27.6
+"428",2013,"Accidents","M","White Non-Hispanic",271,20.1,17.9
+"429",2013,"Malignant Neoplasms","F","Black Non-Hispanic",1784,170.8,145.5
+"430",2007,"Accidents","M","Black Non-Hispanic",158,18.5,20.6
+"431",2009,"Hypertension & Renal Dis.","M","White Non-Hispanic",148,11,9.1
+"432",2012,"Influenza & Pneumonia","F","Black Non-Hispanic",295,28.2,24.1
+"433",2011,"Chronic Lower Respiratory Dis.","F","Asian and Pacific Islander",30,5.3,6.6
+"434",2012,"Diseases of Heart","F","Black Non-Hispanic",2269,217.1,183.9
+"435",2011,"Alzheimer's Disease","F","Hispanic",90,7.3,9.1
+"436",2014,"Diseases of Heart","M","Black Non-Hispanic",1958,226.8,264.7
+"437",2013,"Hypertension & Renal Dis.","F","Black Non-Hispanic",240,23,18.9
+"438",2008,"Hypertension & Renal Dis.","M","Asian and Pacific Islander",31,6.2,9.8
+"439",2010,"Septicemia","F","White Non-Hispanic",107,7.5,4.3
+"440",2007,"Hypertension & Renal Dis.","M","Black Non-Hispanic",137,16.1,22
+"441",2012,"Influenza & Pneumonia","F","Hispanic",209,16.9,19.6
+"442",2008,"Alzheimer's Disease","F","White Non-Hispanic",151,10.5,5.1
+"443",2012,"Accidental Poisoning/Substance Use","M","Hispanic",173,14.8,15.5
+"444",2014,"Diseases of Heart","F","Asian and Pacific Islander",462,73.8,81.1
+"445",2009,"Diabetes Mellitus","M","Black Non-Hispanic",285,33.6,41.4
+"446",2010,"Hypertension & Renal Dis.","F","Asian and Pacific Islander",33,5.9,7.1
+"447",2012,"Malignant Neoplasms","F","Black Non-Hispanic",1912,182.9,159.1
+"448",2012,"Chronic Liver Disease/Cirrhosis","F","Hispanic",54,4.4,4.6
+"449",2009,"Hypertension & Renal Dis.","M","Black Non-Hispanic",131,15.4,19
+"450",2007,"Accidents","F","Black Non-Hispanic",87,8.3,8.1
+"451",2007,"Malignant Neoplasms","M","Asian and Pacific Islander",528,109.1,145.9
+"452",2014,"Influenza & Pneumonia","F","Asian and Pacific Islander",80,12.8,14.1
+"453",2013,"Malignant Neoplasms","F","White Non-Hispanic",3187,224.2,153.3
+"454",2009,"Malignant Neoplasms","M","Asian and Pacific Islander",506,99.1,127
+"455",2014,"Accidents","F","Hispanic",64,5.1,5.4
+"456",2009,"Hypertension & Renal Dis.","F","White Non-Hispanic",215,15,7.8
+"457",2013,"Cerebrovascular Disease","F","White Non-Hispanic",427,30,16.4
+"458",2010,"Diabetes Mellitus","F","Asian and Pacific Islander",51,9.1,11.3
+"459",2012,"Influenza & Pneumonia","M","Black Non-Hispanic",242,28.3,37.4
+"460",2014,"Diseases of Heart","F","Hispanic",1230,97.1,106.7
+"461",2014,"Diabetes Mellitus","F","Hispanic",209,16.5,17.9
+"462",2013,"Influenza & Pneumonia","F","White Non-Hispanic",622,43.7,22.1
+"463",2008,"Malignant Neoplasms","F","White Non-Hispanic",3366,234.5,160.5
+"464",2012,"Septicemia","F","White Non-Hispanic",113,8,4.2
+"465",2008,"Influenza & Pneumonia","F","Black Non-Hispanic",318,30.4,28.6
+"466",2009,"Diseases of Heart","F","Black Non-Hispanic",2535,242.1,220.9
+"467",2009,"Cerebrovascular Disease","F","Black Non-Hispanic",245,23.4,21.3
+"468",2012,"Alzheimer's Disease","F","White Non-Hispanic",222,15.7,7.2
+"469",2012,"Alzheimer's Disease","F","Hispanic",126,10.2,12.2
+"470",2011,"Chronic Liver Disease/Cirrhosis","M","Hispanic",167,14.5,18.8
+"471",2009,"Cerebrovascular Disease","M","Hispanic",143,12.7,21.1
+"472",2011,"Cerebrovascular Disease","M","Black Non-Hispanic",200,23.4,28.1
+"473",2010,"Chronic Lower Respiratory Dis.","M","Black Non-Hispanic",202,23.7,30.9
+"474",2014,"Alzheimer's Disease","F","Black Non-Hispanic",123,11.7,9.2
+"475",2007,"Hypertension & Renal Dis.","M","Asian and Pacific Islander",25,5.2,8.3
+"476",2014,"Malignant Neoplasms","F","Hispanic",1154,91.1,97.4
+"477",2007,"Cerebrovascular Disease","F","White Non-Hispanic",372,25.9,14.4
+"478",2012,"Malignant Neoplasms","M","Black Non-Hispanic",1563,182.7,215.3
+"479",2007,"Nephritis","F","Asian and Pacific Islander",13,2.5,3.2
+"480",2007,"Diseases of Heart","F","Hispanic",1418,121.5,164.3
+"481",2013,"Hypertension & Renal Dis.","F","Hispanic",103,8.3,9.3
+"482",2013,"Chronic Lower Respiratory Dis.","M","Black Non-Hispanic",184,21.4,26.1
+"483",2008,"Accidents","F","White Non-Hispanic",193,13.4,9.4
+"484",2007,"Diabetes Mellitus","F","Hispanic",205,17.6,22.6
+"485",2008,"Diseases of Heart","F","Hispanic",1445,122.3,160.7
+"486",2009,"Chronic Lower Respiratory Dis.","M","Asian and Pacific Islander",51,10,16.9
+"487",2012,"Diseases of Heart","F","Hispanic",1263,102,118.4
+"488",2011,"Malignant Neoplasms","M","White Non-Hispanic",3222,241.6,206.1
+"489",2008,"Chronic Lower Respiratory Dis.","F","Black Non-Hispanic",191,18.2,17.1
+"490",2010,"HIV","M","Black Non-Hispanic",297,34.9,34
+"491",2007,"Malignant Neoplasms","M","Hispanic",1013,92.9,163.5
+"492",2012,"Hypertension & Renal Dis.","F","Black Non-Hispanic",214,20.5,17.4
+"493",2012,"Chronic Lower Respiratory Dis.","M","Black Non-Hispanic",184,21.5,27.3
+"494",2013,"Chronic Lower Respiratory Dis.","M","Hispanic",142,12,20
+"495",2009,"Accidents","F","Hispanic",56,4.7,5.3
+"496",2014,"Accidents","M","Hispanic",176,14.7,16.9
+"497",2013,"Diabetes Mellitus","F","White Non-Hispanic",238,16.7,10.4
+"498",2012,"Accidents","F","White Non-Hispanic",177,12.5,8.5
+"499",2013,"Influenza & Pneumonia","M","Black Non-Hispanic",274,31.9,40
+"500",2011,"Influenza & Pneumonia","M","Hispanic",209,18.1,34.4
+"501",2009,"Suicide","M","White Non-Hispanic",191,14.2,13
+"502",2011,"Accidental Poisoning/Substance Use","M","Hispanic",145,12.6,13
+"503",2011,"Diabetes Mellitus","F","Hispanic",196,16,18.5
+"504",2010,"Diabetes Mellitus","M","Asian and Pacific Islander",64,12.3,15.5
+"505",2007,"Hypertension & Renal Dis.","F","Hispanic",78,6.7,8.9
+"506",2012,"Diabetes Mellitus","F","Hispanic",200,16.1,18.4
+"507",2009,"Diabetes Mellitus","M","Hispanic",172,15.3,25.4
+"508",2009,"Chronic Lower Respiratory Dis.","F","Asian and Pacific Islander",30,5.5,7.4
+"509",2011,"Hypertension & Renal Dis.","M","Asian and Pacific Islander",37,7,10.5
+"510",2007,"Assault","M","Black Non-Hispanic",267,31.3,31.1
+"511",2012,"Diabetes Mellitus","M","White Non-Hispanic",292,21.8,18.1
+"512",2012,"Chronic Liver Disease/Cirrhosis","M","Hispanic",143,12.2,15
+"513",2013,"Alzheimer's Disease","F","Hispanic",120,9.6,11
+"514",2011,"Alzheimer's Disease","F","Black Non-Hispanic",90,8.6,7.4
+"515",2009,"Accidents","F","White Non-Hispanic",178,12.4,8.3
+"516",2008,"Influenza & Pneumonia","M","Black Non-Hispanic",222,26.1,37.6
+"517",2010,"HIV","M","Hispanic",189,16.5,18.4
+"518",2013,"Cerebrovascular Disease","M","Black Non-Hispanic",191,22.3,25
+"519",2013,"Hypertension & Renal Dis.","M","Asian and Pacific Islander",33,6,8.4
+"520",2010,"Malignant Neoplasms","M","Asian and Pacific Islander",526,101,124.5
+"521",2007,"Diabetes Mellitus","F","Asian and Pacific Islander",34,6.6,8.3
+"522",2013,"HIV","F","Black Non-Hispanic",107,10.2,8.7
+"523",2011,"Influenza & Pneumonia","F","Black Non-Hispanic",273,26.1,22.8
+"524",2007,"Accidental Poisoning/Substance Use","M","Hispanic",183,16.8,17.9
+"525",2012,"Diseases of Heart","M","Hispanic",1251,107.1,182.5
+"526",2009,"Cerebrovascular Disease","F","White Non-Hispanic",390,27.1,15.2
+"527",2014,"Malignant Neoplasms","F","Black Non-Hispanic",1852,176.5,148.4
+"528",2010,"HIV","F","Hispanic",79,6.5,6.5
+"529",2009,"Influenza & Pneumonia","F","Asian and Pacific Islander",83,15.1,20.3
+"530",2012,"Diabetes Mellitus","M","Black Non-Hispanic",308,36,42.9
+"531",2009,"Assault","M","Black Non-Hispanic",255,30,30
+"532",2010,"Suicide","F","Asian and Pacific Islander",17,3,2.9
+"533",2014,"Hypertension & Renal Dis.","M","White Non-Hispanic",175,13,10.5
+"534",2011,"Diseases of Heart","F","Hispanic",1348,110,131.8
+"535",2014,"Malignant Neoplasms","M","Asian and Pacific Islander",657,114.5,129.5
+"536",2013,"HIV","M","Hispanic",122,10.3,11.3
+"537",2008,"Diabetes Mellitus","M","Black Non-Hispanic",265,31.2,40.2
+"538",2011,"Influenza & Pneumonia","M","Black Non-Hispanic",243,28.5,38
+"539",2011,"Hypertension & Renal Dis.","F","Asian and Pacific Islander",46,8.1,10.2
+"540",2007,"Chronic Lower Respiratory Dis.","F","White Non-Hispanic",472,32.9,19.6
+"541",2014,"Diabetes Mellitus","M","Asian and Pacific Islander",71,12.4,14.2
+"542",2009,"Diseases of Heart","M","Black Non-Hispanic",2068,243.5,318.9
+"543",2008,"Suicide","M","Asian and Pacific Islander",30,6,6.3
+"544",2010,"Hypertension & Renal Dis.","F","White Non-Hispanic",219,15.3,7.7
+"545",2008,"Diabetes Mellitus","F","Asian and Pacific Islander",47,8.8,11.3
+"546",2011,"Malignant Neoplasms","M","Asian and Pacific Islander",550,104.1,130.4
+"547",2010,"Chronic Liver Disease/Cirrhosis","M","Asian and Pacific Islander",18,3.5,3.1
+"548",2013,"Cerebrovascular Disease","M","White Non-Hispanic",249,18.5,15.1
+"549",2013,"Chronic Lower Respiratory Dis.","F","Asian and Pacific Islander",27,4.5,5.2
+"550",2013,"Influenza & Pneumonia","M","Hispanic",233,19.7,33.1
+"551",2009,"Hypertension & Renal Dis.","F","Black Non-Hispanic",227,21.7,19.6
+"552",2009,"Diabetes Mellitus","F","Hispanic",215,18,22.2
+"553",2013,"Influenza & Pneumonia","M","White Non-Hispanic",618,45.9,36.7
+"554",2014,"Chronic Lower Respiratory Dis.","F","White Non-Hispanic",515,36.3,21
+"555",2011,"HIV","M","Hispanic",162,14.1,16.2
+"556",2010,"Malignant Neoplasms","F","White Non-Hispanic",3438,240.4,163
+"557",2008,"Malignant Neoplasms","M","Hispanic",1080,97.7,165.9
+"558",2012,"Malignant Neoplasms","M","Hispanic",1126,96.4,151
+"559",2008,"Cerebrovascular Disease","F","White Non-Hispanic",379,26.4,14.9
+"560",2007,"Hypertension & Renal Dis.","F","Black Non-Hispanic",166,15.8,15
+"561",2011,"Nephritis","F","Black Non-Hispanic",83,7.9,6.9
+"562",2013,"Diseases of Heart","M","Black Non-Hispanic",1868,217.7,258.5
+"563",2008,"Nephritis","F","Black Non-Hispanic",71,6.8,6.3
+"564",2009,"Alzheimer's Disease","F","White Non-Hispanic",205,14.3,6.5
+"565",2013,"Malignant Neoplasms","M","White Non-Hispanic",3132,232.7,194.5
+"566",2009,"Diseases of Heart","M","White Non-Hispanic",5168,384.2,319.8
+"567",2013,"Diseases of Heart","F","White Non-Hispanic",4535,319,160.6
+"568",2014,"Diseases of Heart","M","Asian and Pacific Islander",554,96.5,118.5
+"569",2007,"Cerebrovascular Disease","M","White Non-Hispanic",267,20,16.7
+"570",2010,"Hypertension & Renal Dis.","F","Black Non-Hispanic",252,24,21.4
+"571",2011,"Chronic Lower Respiratory Dis.","F","Hispanic",156,12.7,15
+"572",2011,"Influenza & Pneumonia","M","White Non-Hispanic",646,48.4,39.3
+"573",2008,"Accidental Poisoning/Substance Use","F","White Non-Hispanic",86,6,5.5
+"574",2009,"Chronic Lower Respiratory Dis.","F","Black Non-Hispanic",188,18,16.4
+"575",2007,"Diabetes Mellitus","F","Black Non-Hispanic",358,34,32.5
+"576",2014,"Chronic Lower Respiratory Dis.","M","Asian and Pacific Islander",95,16.6,22.9
+"577",2014,"Influenza & Pneumonia","F","White Non-Hispanic",563,39.7,20.4
+"578",2013,"Hypertension & Renal Dis.","F","Asian and Pacific Islander",50,8.3,9.3
+"579",2007,"Nephritis","F","White Non-Hispanic",89,6.2,3.5
+"580",2008,"Accidents","F","Black Non-Hispanic",70,6.7,6.4
+"581",2010,"Accidents","M","Asian and Pacific Islander",54,10.4,13.7
+"582",2010,"Cerebrovascular Disease","M","Asian and Pacific Islander",83,15.9,21.3
+"583",2008,"Influenza & Pneumonia","M","White Non-Hispanic",529,39.4,32.7
+"584",2011,"Suicide","M","White Non-Hispanic",177,13.3,12
+"585",2011,"Accidents","M","Hispanic",180,15.6,18.9
+"586",2012,"Chronic Lower Respiratory Dis.","F","Hispanic",158,12.8,14.6
+"587",2009,"Diabetes Mellitus","M","Asian and Pacific Islander",48,9.4,13.3
+"588",2009,"Diseases of Heart","F","White Non-Hispanic",6297,438.3,226.2
+"589",2007,"Chronic Liver Disease/Cirrhosis","M","Asian and Pacific Islander",18,3.7,3.6
+"590",2010,"Influenza & Pneumonia","F","Hispanic",228,18.7,23.1
+"591",2008,"Diabetes Mellitus","F","White Non-Hispanic",210,14.6,8.8
+"592",2007,"Influenza & Pneumonia","M","Black Non-Hispanic",229,26.9,40.1
+"593",2013,"Influenza & Pneumonia","F","Hispanic",204,16.3,18.5
+"594",2008,"Suicide","F","Asian and Pacific Islander",26,4.9,4.5
+"595",2012,"Influenza & Pneumonia","M","Asian and Pacific Islander",76,14.1,20.9
+"596",2007,"Influenza & Pneumonia","M","Asian and Pacific Islander",66,13.6,25.7
+"597",2010,"Alzheimer's Disease","F","Black Non-Hispanic",88,8.4,7.3
+"598",2011,"HIV","M","Black Non-Hispanic",277,32.5,31.8
+"599",2007,"Malignant Neoplasms","F","Black Non-Hispanic",1800,171,161.7
+"600",2013,"Cerebrovascular Disease","M","Hispanic",158,13.4,20.8
+"601",2014,"Hypertension & Renal Dis.","F","Hispanic",116,9.2,10.1
+"602",2011,"Accidental Poisoning/Substance Use","M","White Non-Hispanic",254,19,17.3
+"603",2008,"Accidents","M","Asian and Pacific Islander",53,10.6,12.2
+"604",2010,"Malignant Neoplasms","M","Black Non-Hispanic",1540,180.9,224.1
+"605",2014,"Cerebrovascular Disease","F","Asian and Pacific Islander",112,17.9,19.1
+"606",2014,"Accidents","M","Black Non-Hispanic",148,17.1,17.7
+"607",2007,"Diabetes Mellitus","M","Black Non-Hispanic",246,28.9,38.1
+"608",2013,"Hypertension & Renal Dis.","F","White Non-Hispanic",206,14.5,7.5
+"609",2013,"Assault","M","Black Non-Hispanic",174,20.3,20.6
+"610",2012,"Cerebrovascular Disease","F","Black Non-Hispanic",271,25.9,22.1
+"611",2010,"Diabetes Mellitus","F","Black Non-Hispanic",384,36.6,33
+"612",2014,"Diseases of Heart","M","Hispanic",1281,107.3,170.5
+"613",2014,"Diabetes Mellitus","F","White Non-Hispanic",228,16.1,10
+"614",2014,"Alzheimer's Disease","F","White Non-Hispanic",276,19.5,8.6
+"615",2012,"Accidents","M","Asian and Pacific Islander",56,10.4,12
+"616",2012,"Malignant Neoplasms","F","White Non-Hispanic",3256,229.6,157.3
+"617",2014,"Malignant Neoplasms","M","Black Non-Hispanic",1532,177.5,199.6
+"618",2008,"Chronic Liver Disease/Cirrhosis","M","Hispanic",149,13.5,16.8
+"619",2013,"Accidental Poisoning/Substance Use","M","Hispanic",188,15.9,16.6
+"620",2010,"Cerebrovascular Disease","M","Black Non-Hispanic",171,20.1,23.9
+"621",2012,"Accidents","F","Hispanic",60,4.8,5.2
+"622",2014,"Chronic Liver Disease/Cirrhosis","M","Asian and Pacific Islander",31,5.4,5.3
+"623",2009,"Hypertension & Renal Dis.","F","Hispanic",84,7,8.8
+"624",2010,"Diseases of Heart","M","Asian and Pacific Islander",478,91.8,130
+"625",2011,"Hypertension & Renal Dis.","M","White Non-Hispanic",142,10.6,8.8
+"626",2010,"Nephritis","F","Black Non-Hispanic",86,8.2,7.4
+"627",2012,"Hypertension & Renal Dis.","F","Hispanic",101,8.2,9.5
+"628",2013,"Diseases of Heart","F","Hispanic",1261,101,113.6
+"629",2009,"Diabetes Mellitus","F","White Non-Hispanic",229,15.9,9.5
+"630",2012,"Influenza & Pneumonia","F","White Non-Hispanic",576,40.6,20.2
+"631",2012,"Malignant Neoplasms","F","Asian and Pacific Islander",461,78.9,83.8
+"632",2011,"Hypertension & Renal Dis.","F","White Non-Hispanic",199,14,6.8
+"633",2008,"Malignant Neoplasms","M","Black Non-Hispanic",1464,172.4,220.4
+"634",2009,"Suicide","F","Asian and Pacific Islander",17,3.1,3.1
+"635",2014,"Nephritis","M","Asian and Pacific Islander",28,4.9,5.8
+"636",2007,"HIV","F","Black Non-Hispanic",248,23.6,22.1
+"637",2007,"Chronic Liver Disease/Cirrhosis","M","Hispanic",107,9.8,12.8
+"638",2007,"Malignant Neoplasms","M","White Non-Hispanic",3356,250.9,213.7
+"639",2008,"Influenza & Pneumonia","F","White Non-Hispanic",621,43.3,22.2
+"640",2010,"Diabetes Mellitus","M","Black Non-Hispanic",279,32.8,41
+"641",2014,"Diabetes Mellitus","M","Black Non-Hispanic",318,36.8,42.2
+"642",2014,"Accidents","M","Asian and Pacific Islander",68,11.9,13.3
+"643",2012,"Diabetes Mellitus","F","Black Non-Hispanic",409,39.1,33.8
+"644",2012,"Chronic Lower Respiratory Dis.","F","Asian and Pacific Islander",39,6.7,8
+"645",2015,"Malignant Neoplasms","F","Asian and Pacific Islander",515,79.726669113,78.865386427
+"646",2015,"Diseases of Heart","F","Asian and Pacific Islander",498,77.094914987,81.605131438
+"647",2015,"Cerebrovascular Disease","F","Asian and Pacific Islander",95,14.706861293,15.337930564
+"648",2015,"Influenza & Pneumonia","F","Asian and Pacific Islander",89,13.778006895,14.706362334
+"649",2015,"Diabetes Mellitus","F","Asian and Pacific Islander",71,10.991443703,11.537396764
+"650",2015,"Alzheimer's Disease","F","Asian and Pacific Islander",50,7.7404533119,8.4169129758
+"651",2015,"Chronic Lower Respiratory Dis.","F","Asian and Pacific Islander",41,6.3471717158,6.670309854
+"652",2015,"Suicide","F","Asian and Pacific Islander",36,5.5731263846,5.3508769503
+"653",2015,"Accidents Except Drug Poisoning V01-X39, X43, X45-X59, Y85-Y86","F","Asian and Pacific Islander",34,5.2635082521,5.3957028724
+"654",2015,"Hypertension & Renal Dis.","F","Asian and Pacific Islander",30,4.6442719871,4.9072973962
+"655",2015,"Diseases of Heart","F","Hispanic",1361,106.48402427,113.3767005
+"656",2015,"Malignant Neoplasms","F","Hispanic",1193,93.339780272,97.350361051
+"657",2015,"Influenza & Pneumonia","F","Hispanic",208,16.273825898,17.335328274
+"658",2015,"Cerebrovascular Disease","F","Hispanic",197,15.413190875,16.318230259
+"659",2015,"Diabetes Mellitus","F","Hispanic",196,15.334951327,16.26295404
+"660",2015,"Chronic Lower Respiratory Dis.","F","Hispanic",183,14.317837209,15.124100834
+"661",2015,"Alzheimer's Disease","F","Hispanic",176,13.770160375,14.820669302
+"662",2015,"Hypertension & Renal Dis.","F","Hispanic",98,7.6674756636,8.1616393873
+"663",2015,"Accidental Poisoning/Substance Use","F","Hispanic",78,6.1026847118,5.9547881374
+"664",2015,"Accidents Except Drug Poisoning V01-X39, X43, X45-X59, Y85-Y86","F","Hispanic",65,5.0855705932,5.2886409783
+"665",2015,"Diseases of Heart","F","Non-Hispanic Black",2344,224.23476538,177.65402799
+"666",2015,"Malignant Neoplasms","F","Non-Hispanic Black",1872,179.08168976,148.09745765
+"667",2015,"Diabetes Mellitus","F","Non-Hispanic Black",392,37.500011958,30.462524102
+"668",2015,"Cerebrovascular Disease","F","Non-Hispanic Black",307,29.368631814,23.554311957
+"669",2015,"Influenza & Pneumonia","F","Non-Hispanic Black",261,24.968120207,19.690289087
+"670",2015,"Hypertension & Renal Dis.","F","Non-Hispanic Black",232,22.193884628,17.547592288
+"671",2015,"Chronic Lower Respiratory Dis.","F","Non-Hispanic Black",223,21.332914966,17.584151503
+"672",2015,"Alzheimer's Disease","F","Non-Hispanic Black",147,14.062504484,10.664469186
+"673",2015,"HIV","F","Non-Hispanic Black",92,8.8010232146,7.8193619457
+"674",2015,"Nephritis","F","Non-Hispanic Black",79,7.5574003691,6.1882269271
+"675",2015,"Diseases of Heart","F","Non-Hispanic White",4494,317.96074946,161.77143548
+"676",2015,"Malignant Neoplasms","F","Non-Hispanic White",3130,221.45463859,149.88778726
+"677",2015,"Influenza & Pneumonia","F","Non-Hispanic White",521,36.861938245,19.319884821
+"678",2015,"Chronic Lower Respiratory Dis.","F","Non-Hispanic White",503,35.588397192,20.68637768
+"679",2015,"Cerebrovascular Disease","F","Non-Hispanic White",422,29.857462455,15.52110044
+"680",2015,"Alzheimer's Disease","F","Non-Hispanic White",378,26.744362105,11.924142044
+"681",2015,"Diabetes Mellitus","F","Non-Hispanic White",239,16.909795087,10.436984572
+"682",2015,"Hypertension & Renal Dis.","F","Non-Hispanic White",226,15.990015438,8.5882947134
+"683",2015,"Accidents Except Drug Poisoning V01-X39, X43, X45-X59, Y85-Y86","F","Non-Hispanic White",191,13.513685614,8.932653057
+"684",2015,"Septicemia","F","Non-Hispanic White",127,8.9855396489,5.2332402581
+"685",2015,"Malignant Neoplasms","M","Asian and Pacific Islander",668,113.04043226,123.13649131
+"686",2015,"Diseases of Heart","M","Asian and Pacific Islander",610,103.22554443,122.81687948
+"687",2015,"Influenza & Pneumonia","M","Asian and Pacific Islander",108,18.27599803,23.159672263
+"688",2015,"Cerebrovascular Disease","M","Asian and Pacific Islander",90,15.229998359,17.239063635
+"689",2015,"Diabetes Mellitus","M","Asian and Pacific Islander",85,14.383887339,16.447493819
+"690",2015,"Chronic Lower Respiratory Dis.","M","Asian and Pacific Islander",76,12.860887503,16.277404045
+"691",2015,"Accidents Except Drug Poisoning V01-X39, X43, X45-X59, Y85-Y86","M","Asian and Pacific Islander",64,10.830221055,12.338107317
+"692",2015,"Hypertension & Renal Dis.","M","Asian and Pacific Islander",50,8.4611101992,10.330991003
+"693",2015,"Suicide","M","Asian and Pacific Islander",39,6.5996659554,6.5442121478
+"694",2015,"Parkinson's Disease G20","M","Asian and Pacific Islander",30,5.0766661195,6.6348610405
+"695",2015,"Diseases of Heart","M","Hispanic",1410,116.81865519,181.97104604
+"696",2015,"Malignant Neoplasms","M","Hispanic",1175,97.348879328,140.8760087
+"697",2015,"Accidental Poisoning/Substance Use","M","Hispanic",261,21.623878727,21.734288627
+"698",2015,"Diabetes Mellitus","M","Hispanic",225,18.641274765,26.206345989
+"699",2015,"Influenza & Pneumonia","M","Hispanic",196,16.238621573,26.148140036
+"700",2015,"Accidents Except Drug Poisoning V01-X39, X43, X45-X59, Y85-Y86","M","Hispanic",178,14.747319592,17.155828284
+"701",2015,"Cerebrovascular Disease","M","Hispanic",178,14.747319592,22.150241685
+"702",2015,"Chronic Liver Disease/Cirrhosis","M","Hispanic",166,13.753118271,17.087871422
+"703",2015,"Chronic Lower Respiratory Dis.","M","Hispanic",153,12.67606684,20.011305363
+"704",2015,"Hypertension & Renal Dis.","M","Hispanic",105,8.699261557,13.400895785
+"705",2015,"Diseases of Heart","M","Non-Hispanic Black",2033,235.68965018,265.86557325
+"706",2015,"Malignant Neoplasms","M","Non-Hispanic Black",1523,176.56435672,194.06549142
+"707",2015,"Diabetes Mellitus","M","Non-Hispanic Black",345,39.996522042,44.694500445
+"708",2015,"Influenza & Pneumonia","M","Non-Hispanic Black",225,26.084688288,31.080224264
+"709",2015,"Cerebrovascular Disease","M","Non-Hispanic Black",206,23.881981277,26.134090045
+"710",2015,"Assault","M","Non-Hispanic Black",196,22.722661798,22.972552917
+"711",2015,"HIV","M","Non-Hispanic Black",185,21.44741037,20.659478815
+"712",2015,"Chronic Lower Respiratory Dis.","M","Non-Hispanic Black",177,20.519954787,23.202745393
+"713",2015,"Hypertension & Renal Dis.","M","Non-Hispanic Black",167,19.360635307,22.386186447
+"714",2015,"Accidental Poisoning/Substance Use","M","Non-Hispanic Black",155,17.969451932,16.627848482
+"715",2015,"Diseases of Heart","M","Non-Hispanic White",4015,298.45287678,239.22380591
+"716",2015,"Malignant Neoplasms","M","Non-Hispanic White",3020,224.49008415,186.12820345
+"717",2015,"Influenza & Pneumonia","M","Non-Hispanic White",449,33.376174763,26.603405982
+"718",2015,"Chronic Lower Respiratory Dis.","M","Non-Hispanic White",364,27.057745242,21.840951383
+"719",2015,"Accidental Poisoning/Substance Use","M","Non-Hispanic White",342,25.422387013,23.63655961
+"720",2015,"Cerebrovascular Disease","M","Non-Hispanic White",316,23.489690925,18.811152815
+"721",2015,"Accidents Except Drug Poisoning V01-X39, X43, X45-X59, Y85-Y86","M","Non-Hispanic White",287,21.333991441,18.286093684
+"722",2015,"Diabetes Mellitus","M","Non-Hispanic White",246,18.286278378,15.005519013
+"723",2015,"Suicide","M","Non-Hispanic White",181,13.454538156,11.936840965
+"724",2015,"Alzheimer's Disease","M","Non-Hispanic White",170,12.636859042,9.6265926406
+"725",2015,"Hypertension & Renal Dis.","M","Non-Hispanic White",170,12.636859042,9.9677829178
+"726",2016,"Malignant Neoplasms","F","Asian and Pacific Islander",565,86.442985878,83.074455608
+"727",2016,"Diseases of Heart","F","Asian and Pacific Islander",530,81.088110647,82.628287468
+"728",2016,"Cerebrovascular Disease","F","Asian and Pacific Islander",118,18.053579352,18.250674863
+"729",2016,"Influenza & Pneumonia","F","Asian and Pacific Islander",92,14.075672037,14.459470243
+"730",2016,"Diabetes Mellitus","F","Asian and Pacific Islander",73,11.168739768,11.233526052
+"731",2016,"Hypertension & Renal Dis.","F","Asian and Pacific Islander",58,8.8737932406,9.168902731
+"732",2016,"Alzheimer's Disease","F","Asian and Pacific Islander",49,7.496825324,7.7427823549
+"733",2016,"Accidents Except Drug Poisoning V01-X39, X43, X45-X59, Y85-Y86","F","Asian and Pacific Islander",43,6.5788467129,6.5005947989
+"734",2016,"Chronic Lower Respiratory Dis.","F","Asian and Pacific Islander",39,5.9668609721,6.1103990707
+"735",2016,"Intentional Self-Harm Suicide: U03, X60-X84, Y87.0","F","Asian and Pacific Islander",29,4.4368966203,4.1497478057
+"736",2016,"Diseases of Heart","F","Hispanic",1485,115.89701165,120.31531124
+"737",2016,"Malignant Neoplasms","F","Hispanic",1162,90.688436054,93.111685142
+"738",2016,"Diabetes Mellitus","F","Hispanic",231,18.028424035,18.561319552
+"739",2016,"Cerebrovascular Disease","F","Hispanic",204,15.921205641,16.428438473
+"740",2016,"Alzheimer's Disease","F","Hispanic",203,15.843160515,16.480112491
+"741",2016,"Influenza & Pneumonia","F","Hispanic",195,15.21879951,15.840548354
+"742",2016,"Chronic Lower Respiratory Dis.","F","Hispanic",168,13.111581116,13.562403009
+"743",2016,"Hypertension & Renal Dis.","F","Hispanic",131,10.223911466,10.490616754
+"744",2016,"Accidental Poisoning/Substance Use","F","Hispanic",90,7.0240613123,6.8554556055
+"745",2016,"Chronic Liver Disease/Cirrhosis-K74","F","Hispanic",59,4.6046624158,4.6851572028
+"746",2016,"Diseases of Heart","F","Non-Hispanic Black",2303,221.52537971,171.09966165
+"747",2016,"Malignant Neoplasms","F","Non-Hispanic Black",1864,179.29800598,145.04080515
+"748",2016,"Diabetes Mellitus","F","Non-Hispanic Black",399,38.379777032,30.807579371
+"749",2016,"Cerebrovascular Disease","F","Non-Hispanic Black",276,26.548417195,20.695012466
+"750",2016,"Hypertension & Renal Dis.","F","Non-Hispanic Black",226,21.738921326,16.686833576
+"751",2016,"Chronic Lower Respiratory Dis.","F","Non-Hispanic Black",218,20.969401987,16.849136505
+"752",2016,"Influenza & Pneumonia","F","Non-Hispanic Black",212,20.392262483,16.053811074
+"753",2016,"Alzheimer's Disease","F","Non-Hispanic Black",158,15.198006945,11.060385285
+"754",2016,"Accidental Poisoning/Substance Use","F","Non-Hispanic Black",101,9.7151816547,8.5902035184
+"755",2016,"HIV","F","Non-Hispanic Black",91,8.7532824809,7.8444021693
+"756",2016,"Diseases of Heart","F","Non-Hispanic White",4306,307.34487149,156.26533327
+"757",2016,"Malignant Neoplasms","F","Non-Hispanic White",3102,221.40821908,149.01344792
+"758",2016,"Chronic Lower Respiratory Dis.","F","Non-Hispanic White",471,33.618075818,19.479202301
+"759",2016,"Influenza & Pneumonia","F","Non-Hispanic White",450,32.119180718,17.149186714
+"760",2016,"Cerebrovascular Disease","F","Non-Hispanic White",404,28.835886689,15.15839983
+"761",2016,"Alzheimer's Disease","F","Non-Hispanic White",361,25.766720532,11.757162066
+"762",2016,"Hypertension & Renal Dis.","F","Non-Hispanic White",219,15.631334616,8.2112950139
+"763",2016,"Diabetes Mellitus","F","Non-Hispanic White",183,13.061800159,8.011416512
+"764",2016,"Accidents Except Drug Poisoning V01-X39, X43, X45-X59, Y85-Y86","F","Non-Hispanic White",156,11.134649316,7.2336520293
+"765",2016,"Accidental Poisoning/Substance Use","F","Non-Hispanic White",138,9.8498820869,9.3751240527
+"766",2016,"Malignant Neoplasms","M","Asian and Pacific Islander",683,115.00852882,121.07853677
+"767",2016,"Diseases of Heart","M","Asian and Pacific Islander",603,101.53754448,117.77966521
+"768",2016,"Influenza & Pneumonia","M","Asian and Pacific Islander",113,19.027765383,22.916327557
+"769",2016,"Cerebrovascular Disease","M","Asian and Pacific Islander",95,15.996793906,18.071424317
+"770",2016,"Diabetes Mellitus","M","Asian and Pacific Islander",76,12.797435125,14.194347138
+"771",2016,"Chronic Lower Respiratory Dis.","M","Asian and Pacific Islander",75,12.62904782,15.580556412
+"772",2016,"Accidents Except Drug Poisoning V01-X39, X43, X45-X59, Y85-Y86","M","Asian and Pacific Islander",60,10.103238256,11.082290293
+"773",2016,"Hypertension & Renal Dis.","M","Asian and Pacific Islander",48,8.082590605,9.8342460156
+"774",2016,"Alzheimer's Disease","M","Asian and Pacific Islander",37,6.230330258,9.0687033967
+"775",2016,"Intentional Self-Harm Suicide: U03, X60-X84, Y87.0","M","Asian and Pacific Islander",32,5.3883937367,5.364178546
+"776",2016,"Diseases of Heart","M","Hispanic",1418,117.40558496,174.63567805
+"777",2016,"Malignant Neoplasms","M","Hispanic",1224,101.34304372,143.71567081
+"778",2016,"Accidental Poisoning/Substance Use","M","Hispanic",369,30.551947004,30.486545556
+"779",2016,"Diabetes Mellitus","M","Hispanic",217,17.966863143,25.756160029
+"780",2016,"Influenza & Pneumonia","M","Hispanic",191,15.81415143,24.900276022
+"781",2016,"Accidents Except Drug Poisoning V01-X39, X43, X45-X59, Y85-Y86","M","Hispanic",177,14.654998969,16.440433137
+"782",2016,"Cerebrovascular Disease","M","Hispanic",170,14.075422739,19.742413964
+"783",2016,"Chronic Liver Disease/Cirrhosis-K74","M","Hispanic",146,12.088304234,13.882842175
+"784",2016,"Chronic Lower Respiratory Dis.","M","Hispanic",146,12.088304234,18.435542465
+"785",2016,"Hypertension & Renal Dis.","M","Hispanic",99,8.1968638302,13.149203555
+"786",2016,"Diseases of Heart","M","Non-Hispanic Black",2106,244.94951551,271.13147816
+"787",2016,"Malignant Neoplasms","M","Non-Hispanic Black",1611,187.37591144,199.64634033
+"788",2016,"Diabetes Mellitus","M","Non-Hispanic Black",313,36.405127424,39.879332416
+"789",2016,"Accidental Poisoning/Substance Use","M","Non-Hispanic Black",258,30.008060305,27.588455537
+"790",2016,"Influenza & Pneumonia","M","Non-Hispanic Black",258,30.008060305,34.461829564
+"791",2016,"Cerebrovascular Disease","M","Non-Hispanic Black",220,25.588268477,28.56164123
+"792",2016,"Chronic Lower Respiratory Dis.","M","Non-Hispanic Black",183,21.28478696,23.534492146
+"793",2016,"Assault Homicide: U01-U02, Y87.1, X85-Y09","M","Non-Hispanic Black",168,19.540132291,19.686354989
+"794",2016,"Hypertension & Renal Dis.","M","Non-Hispanic Black",161,18.725960113,20.833809423
+"795",2016,"Accidents Except Drug Poisoning V01-X39, X43, X45-X59, Y85-Y86","M","Non-Hispanic Black",153,17.795477622,18.379137103
+"796",2016,"Diseases of Heart","M","Non-Hispanic White",4054,303.41336291,239.28469873
+"797",2016,"Malignant Neoplasms","M","Non-Hispanic White",3090,231.26474874,188.07259271
+"798",2016,"Accidental Poisoning/Substance Use","M","Non-Hispanic White",482,36.074307085,33.277938395
+"799",2016,"Influenza & Pneumonia","M","Non-Hispanic White",461,34.502604909,26.72651668
+"800",2016,"Chronic Lower Respiratory Dis.","M","Non-Hispanic White",332,24.847862972,19.760848965
+"801",2016,"Cerebrovascular Disease","M","Non-Hispanic White",317,23.72521856,18.562150814
+"802",2016,"Diabetes Mellitus","M","Non-Hispanic White",252,18.860426111,15.403779586
+"803",2016,"Accidents Except Drug Poisoning V01-X39, X43, X45-X59, Y85-Y86","M","Non-Hispanic White",244,18.261682425,15.876257496
+"804",2016,"Intentional Self-Harm Suicide: U03, X60-X84, Y87.0","M","Non-Hispanic White",176,13.172361093,11.703386146
+"805",2016,"Hypertension & Renal Dis.","M","Non-Hispanic White",151,11.301287074,8.8598438785
+"806",2017,"Malignant Neoplasms","F","Asian and Pacific Islander",609,90.273577858,82.308501815
+"807",2017,"Diseases of Heart","F","Asian and Pacific Islander",583,86.419533483,80.491340351
+"808",2017,"Cerebrovascular Disease","F","Asian and Pacific Islander",92,13.637387788,12.579242234
+"809",2017,"Influenza & Pneumonia","F","Asian and Pacific Islander",78,11.562133125,10.771971109
+"810",2017,"Diabetes Mellitus","F","Asian and Pacific Islander",73,10.820970745,9.943976124
+"811",2017,"Alzheimer's Disease","F","Asian and Pacific Islander",69,10.228040841,9.3928839833
+"812",2017,"Hypertension & Renal Dis.","F","Asian and Pacific Islander",60,8.8939485574,8.2733243648
+"813",2017,"Chronic Lower Respiratory Dis.","F","Asian and Pacific Islander",38,5.6328340864,5.2831167599
+"814",2017,"Accidents Except Drug Poisoning V01-X39, X43, X45-X59, Y85-Y86","F","Asian and Pacific Islander",36,5.3363691344,5.1357028017
+"815",2017,"Intentional Self-Harm Suicide: U03, X60-X84, Y87.0","F","Asian and Pacific Islander",24,3.557579423,3.3695614208
+"816",2017,"Diseases of Heart","F","Hispanic",1437,110.81763674,106.28159738
+"817",2017,"Malignant Neoplasms","F","Hispanic",1205,92.926410766,90.608746515
+"818",2017,"Cerebrovascular Disease","F","Hispanic",247,19.047986273,18.328907927
+"819",2017,"Influenza & Pneumonia","F","Hispanic",222,17.12005244,16.400738267
+"820",2017,"Diabetes Mellitus","F","Hispanic",190,14.652297133,14.242779522
+"821",2017,"Alzheimer's Disease","F","Hispanic",187,14.420945073,13.515011343
+"822",2017,"Chronic Lower Respiratory Dis.","F","Hispanic",183,14.11247566,13.641338566
+"823",2017,"Hypertension & Renal Dis.","F","Hispanic",131,10.102373287,9.7234802851
+"824",2017,"Accidental Poisoning/Substance Use","F","Hispanic",86,6.6320923866,6.4346776558
+"825",2017,"Chronic Liver Disease/Cirrhosis-K74","F","Hispanic",83,6.4007403266,6.1982300179
+"826",2017,"Diseases of Heart","F","Non-Hispanic Black",2486,238.78108308,177.14043321
+"827",2017,"Malignant Neoplasms","F","Non-Hispanic Black",1775,170.48930912,134.18351718
+"828",2017,"Diabetes Mellitus","F","Non-Hispanic Black",389,37.363572534,28.690507237
+"829",2017,"Cerebrovascular Disease","F","Non-Hispanic Black",326,31.312402689,23.374227111
+"830",2017,"Influenza & Pneumonia","F","Non-Hispanic Black",277,26.605937254,19.986031097
+"831",2017,"Chronic Lower Respiratory Dis.","F","Non-Hispanic Black",251,24.108629064,18.593854366
+"832",2017,"Hypertension & Renal Dis.","F","Non-Hispanic Black",238,22.859974969,16.758366858
+"833",2017,"Alzheimer's Disease","F","Non-Hispanic Black",159,15.272000085,10.423533628
+"834",2017,"Accidental Poisoning/Substance Use","F","Non-Hispanic Black",118,11.33393717,9.911482893
+"835",2017,"HIV","F","Non-Hispanic Black",77,7.3958742548,6.5007516004
+"836",2017,"Diseases of Heart","F","Non-Hispanic White",4279,303.91272541,147.83084697
+"837",2017,"Malignant Neoplasms","F","Non-Hispanic White",2983,211.86530963,138.55185944
+"838",2017,"Chronic Lower Respiratory Dis.","F","Non-Hispanic White",502,35.654168768,19.596310659
+"839",2017,"Influenza & Pneumonia","F","Non-Hispanic White",418,29.68813256,14.837120185
+"840",2017,"Cerebrovascular Disease","F","Non-Hispanic White",404,28.693793192,14.227207393
+"841",2017,"Alzheimer's Disease","F","Non-Hispanic White",378,26.847162937,11.633053839
+"842",2017,"Hypertension & Renal Dis.","F","Non-Hispanic White",231,16.406599572,7.8707919903
+"843",2017,"Diabetes Mellitus","F","Non-Hispanic White",192,13.63665419,8.1484190996
+"844",2017,"Accidents Except Drug Poisoning V01-X39, X43, X45-X59, Y85-Y86","F","Non-Hispanic White",164,11.647975454,6.8033854571
+"845",2017,"Accidental Poisoning/Substance Use","F","Non-Hispanic White",119,8.4518846282,8.1706566652
+"846",2017,"Malignant Neoplasms","M","Asian and Pacific Islander",770,126.36581755,126.10260516
+"847",2017,"Diseases of Heart","M","Asian and Pacific Islander",684,112.25223274,120.82588683
+"848",2017,"Cerebrovascular Disease","M","Asian and Pacific Islander",97,15.918810783,17.033124467
+"849",2017,"Influenza & Pneumonia","M","Asian and Pacific Islander",93,15.262364977,17.193562215
+"850",2017,"Diabetes Mellitus","M","Asian and Pacific Islander",93,15.262364977,15.527918284
+"851",2017,"Accidents Except Drug Poisoning V01-X39, X43, X45-X59, Y85-Y86","M","Asian and Pacific Islander",77,12.636581755,13.002395923
+"852",2017,"Chronic Lower Respiratory Dis.","M","Asian and Pacific Islander",76,12.472470304,14.023882479
+"853",2017,"Hypertension & Renal Dis.","M","Asian and Pacific Islander",46,7.549126763,8.1514004945
+"854",2017,"Intentional Self-Harm Suicide: U03, X60-X84, Y87.0","M","Asian and Pacific Islander",38,6.236235152,5.8972746442
+"855",2017,"Alzheimer's Disease","M","Asian and Pacific Islander",29,4.7592320897,5.7275888145
+"856",2017,"Diseases of Heart","M","Hispanic",1427,116.89975621,163.50810748
+"857",2017,"Malignant Neoplasms","M","Hispanic",1192,97.648570006,130.09643305
+"858",2017,"Accidental Poisoning/Substance Use","M","Hispanic",394,32.276456864,32.199106045
+"859",2017,"Diabetes Mellitus","M","Hispanic",235,19.251186201,25.718023722
+"860",2017,"Cerebrovascular Disease","M","Hispanic",191,15.646708784,20.758171269
+"861",2017,"Accidents Except Drug Poisoning V01-X39, X43, X45-X59, Y85-Y86","M","Hispanic",190,15.564788843,17.560649696
+"862",2017,"Influenza & Pneumonia","M","Hispanic",183,14.991349254,21.367626078
+"863",2017,"Chronic Liver Disease/Cirrhosis-K74","M","Hispanic",158,12.943350722,14.491003934
+"864",2017,"Chronic Lower Respiratory Dis.","M","Hispanic",140,11.468791779,16.086169524
+"865",2017,"Hypertension & Renal Dis.","M","Hispanic",124,10.158072719,14.738590734
+"866",2017,"Diseases of Heart","M","Non-Hispanic Black",2143,248.93913363,265.06274571
+"867",2017,"Malignant Neoplasms","M","Non-Hispanic Black",1508,175.17508797,181.0742183
+"868",2017,"Diabetes Mellitus","M","Non-Hispanic Black",347,40.308856448,41.424557378
+"869",2017,"Accidental Poisoning/Substance Use","M","Non-Hispanic Black",309,35.894630094,33.149966918
+"870",2017,"Cerebrovascular Disease","M","Non-Hispanic Black",242,28.111652047,29.72449098
+"871",2017,"Influenza & Pneumonia","M","Non-Hispanic Black",229,26.601521979,29.474992985
+"872",2017,"Hypertension & Renal Dis.","M","Non-Hispanic Black",186,21.606476367,23.511314963
+"873",2017,"Chronic Lower Respiratory Dis.","M","Non-Hispanic Black",165,19.167035487,20.1329842
+"874",2017,"Accidents Except Drug Poisoning V01-X39, X43, X45-X59, Y85-Y86","M","Non-Hispanic Black",138,16.030611498,16.207416866
+"875",2017,"Assault Homicide: U01-U02, Y87.1, X85-Y09","M","Non-Hispanic Black",133,15.449792241,15.648367705
+"876",2017,"Diseases of Heart","M","Non-Hispanic White",4082,303.90452544,227.62906454
+"877",2017,"Malignant Neoplasms","M","Non-Hispanic White",3017,224.61537316,176.0842435
+"878",2017,"Accidental Poisoning/Substance Use","M","Non-Hispanic White",451,33.576908616,30.976421796
+"879",2017,"Influenza & Pneumonia","M","Non-Hispanic White",409,30.45001247,22.399979883
+"880",2017,"Chronic Lower Respiratory Dis.","M","Non-Hispanic White",374,27.844265682,20.874866573
+"881",2017,"Accidents Except Drug Poisoning V01-X39, X43, X45-X59, Y85-Y86","M","Non-Hispanic White",290,21.59047339,18.051475604
+"882",2017,"Cerebrovascular Disease","M","Non-Hispanic White",266,19.803675592,14.881484855
+"883",2017,"Diabetes Mellitus","M","Non-Hispanic White",238,17.719078161,13.951701679
+"884",2017,"Intentional Self-Harm Suicide: U03, X60-X84, Y87.0","M","Non-Hispanic White",194,14.443282199,12.952286365
+"885",2017,"Hypertension & Renal Dis.","M","Non-Hispanic White",172,12.805384217,9.4661427283

@@ -1,0 +1,13 @@
+name: nyc_cause_of_death
+title: nyc_cause_of_death
+username:
+account: aaitelmouden
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 4168985
+bundleId: 4628308
+url: https://aaitelmouden.shinyapps.io/nyc_cause_of_death/
+when: 1621705474.59637
+lastSyncTime: 1621705474.5964
+asMultiple: FALSE
+asStatic: FALSE
