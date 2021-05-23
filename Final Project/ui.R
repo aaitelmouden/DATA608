@@ -1,4 +1,4 @@
-#
+# DATA608 Project | Abdellah Ait Elmouden
 # This is the user-interface definition of the NYC Cause of Death Shiny web application.
 #
 

@@ -1,3 +1,6 @@
+# DATA608 Project | Abdellah Ait Elmouden
+# The global file will be used to import, and clean the DATA
+
 library(shiny)
 library(shinydashboard)
 library(dygraphs)
